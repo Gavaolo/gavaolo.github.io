@@ -1,5 +1,3 @@
-"use strict";
-
 /* global React, ReactDOM */
 
 /* eslint-disable react/prop-types, react/no-multi-comp,
