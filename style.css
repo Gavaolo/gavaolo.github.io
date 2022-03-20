@@ -242,10 +242,6 @@ img{
   color: var(--black);
 }
 
-.btn-show-all:hover>i{
-  transform: translateX(var(--btn-trx));
-}
-
 .btn-show-all:active{
   background-color: var(--grey);
   box-shadow: none;
@@ -253,6 +249,10 @@ img{
 
 .btn-show-all>i{
   margin-left: 20px;
+}
+
+.btn-show-all:hover>i{
+ margin-left: 25px;
 }
 
 /* Contact section */
