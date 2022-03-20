@@ -9,8 +9,6 @@
   --dark-shadow: 0px 0px 15px 10px rgba(200,200,200,1);
   --soft-radius: 30px;
   --hard-radius: 10px;
-  --btn-trx; 5px;
-  --btn-try: 5px;
 }
 
 /* Base reset */
@@ -288,7 +286,7 @@ img{
 }
 
 .contact-details:hover{
-  transform: translateY(var(--btn-try));
+  transform: translateY(5px);
   text-shadow: 10px 10px 10px rgba(100,100,100,1);
 }
 
