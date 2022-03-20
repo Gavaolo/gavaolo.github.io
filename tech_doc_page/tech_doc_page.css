@@ -23,7 +23,7 @@ html, body{
 
 *{
   scroll-margin-top: 20px;
-  transition: all 200ms;
+  transition: all 100ms;
 }
 
 #navbar{
