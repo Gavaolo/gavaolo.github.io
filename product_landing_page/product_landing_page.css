@@ -10,14 +10,13 @@
   --dark-shadow: 0px 0px 10px 5px rgba(200,200,200,1);
   --soft-radius: 30px;
   --hard-radius: 10px;
-  --btn-try: 3px;
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 200ms;
+  transition: all 100ms;
 }
 
 html{
@@ -138,14 +137,6 @@ nav a:active{
   color: var(--black);
   background-color: var(--grey);
   box-shadow: none;
-}
-
-nav li:hover{
-  transform: translateY(calc(-1*var(--btn-try)));
-}
-
-nav li:active{
-  transform: translateY(0px);
 }
 
 #form_group{
