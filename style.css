@@ -9,8 +9,6 @@
   --dark-shadow: 0px 0px 15px 10px rgba(200,200,200,1);
   --soft-radius: 30px;
   --hard-radius: 10px;
-  --btn-try: 3px;
-  --btn-trx: 5px;
 }
 
 /* Base reset */
@@ -119,13 +117,11 @@ img{
 .nav-list a:hover{
   color: var(--black);
   background-color: var(--white);
-  transform: translateY(calc(-1*var(--btn-try)));
 }
 
 .nav-list a:active{
   color: var(--black);
   background-color: var(--grey);
-  transform: translateY(0px);
   box-shadow: none;
 }
 
