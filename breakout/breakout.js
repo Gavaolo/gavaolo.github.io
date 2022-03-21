@@ -2,8 +2,8 @@ const grid = document.querySelector(".grid")
 const scoreDisplay = document.querySelector("#score")
 const blockWidth = 100
 const blockHeight = 20
-const xGap = 110
-const yGap = 30
+const xGap = blockWidth + 10
+const yGap = blockHeight + 10
 const boardWidth = grid.offsetWidth-1
 const boardHeight = grid.offsetHeight-1
 const userXMove = 20
@@ -13,19 +13,19 @@ let xDirection = 2
 let yDirection = 2
 let score = 0
 
-const userStartPosition = [230, 10]
+const userStartPosition = {x: 230, y: 10}
 let userCurrentPosition = userStartPosition
 
-const ballStartPosition = [270, 40]
+const ballStartPosition = {x: 270, y: 40}
 let ballCurrentPosition = ballStartPosition
 
 //create block
 class Block {
     constructor(xAxis, yAxis) {
-        this.bottomLeft = [xAxis,yAxis]
-        this.bottomRight = [xAxis + blockWidth, yAxis]
-        this.topLeft = [xAxis, yAxis + blockHeight]
-        this.topRight = [xAxis + blockWidth, yAxis + blockHeight]
+        this.bottomLeft = {x: xAxis, y: yAxis}
+        this.bottomRight = {x: xAxis + blockWidth, y: yAxis}
+        this.topLeft = {x: xAxis, y: yAxis + blockHeight}
+        this.topRight = {x: xAxis + blockWidth, y: yAxis + blockHeight}
     }
 }
 
@@ -33,35 +33,34 @@ class Block {
 const blocks = [
 
     //1st row
-    new Block(10 + xGap * 0,270),
-    new Block(10 + xGap * 1,270),
-    new Block(10 + xGap * 2,270),
-    new Block(10 + xGap * 3,270),
-    new Block(10 + xGap * 4,270),
+    new Block(10 + xGap * 0, 270),
+    new Block(10 + xGap * 1, 270),
+    new Block(10 + xGap * 2, 270),
+    new Block(10 + xGap * 3, 270),
+    new Block(10 + xGap * 4, 270),
 
     //2nd row
-    new Block(10 + xGap * 0,270 - yGap * 1),
-    new Block(10 + xGap * 1,270 - yGap * 1),
-    new Block(10 + xGap * 2,270 - yGap * 1),
-    new Block(10 + xGap * 3,270 - yGap * 1),
-    new Block(10 + xGap * 4,270 - yGap * 1),
-
-    //3rd row
-    new Block(10 + xGap * 0,270 - yGap * 2),
-    new Block(10 + xGap * 1,270 - yGap * 2),
-    new Block(10 + xGap * 2,270 - yGap * 2),
-    new Block(10 + xGap * 3,270 - yGap * 2),
-    new Block(10 + xGap * 4,270 - yGap * 2),
+    new Block(10 + xGap * 0, 270 - yGap * 1),
+    new Block(10 + xGap * 1, 270 - yGap * 1),
+    new Block(10 + xGap * 2, 270 - yGap * 1),
+    new Block(10 + xGap * 3, 270 - yGap * 1),
+    new Block(10 + xGap * 4, 270 - yGap * 1),
+ 
+    //3rd row 
+    new Block(10 + xGap * 0, 270 - yGap * 2),
+    new Block(10 + xGap * 1, 270 - yGap * 2),
+    new Block(10 + xGap * 2, 270 - yGap * 2),
+    new Block(10 + xGap * 3, 270 - yGap * 2),
+    new Block(10 + xGap * 4, 270 - yGap * 2),
 ]
 
 //draw block
 function addBlock () {
-
     for (let i = 0; i<blocks.length; i++) {
         const block = document.createElement("div")
         block.classList.add("block")
-        block.style.left = blocks[i].bottomLeft[0] + "px"
-        block.style.bottom = blocks[i].bottomLeft[1] + "px"
+        block.style.left = blocks[i].bottomLeft.x + "px"
+        block.style.bottom = blocks[i].bottomLeft.y + "px"
         grid.appendChild(block)
     }
 }
@@ -76,29 +75,29 @@ grid.appendChild(user)
 
 //darw user
 function drawUser() {
-    userCurrentPosition[0] = Math.min(Math.max(userCurrentPosition[0], 10), boardWidth-blockWidth-10)
-    user.style.left = userCurrentPosition[0] + "px"
-    user.style.bottom = userCurrentPosition[1] + "px" 
+    userCurrentPosition.x = Math.min(Math.max(userCurrentPosition.x, 10), boardWidth-blockWidth-10)
+    user.style.left = userCurrentPosition.x + "px"
+    user.style.bottom = userCurrentPosition.y + "px" 
 }
 
 //draw ball
 function drawBall() {
-    ballCurrentPosition[0] = Math.min(Math.max(ballCurrentPosition[0], 0), boardWidth-ball.offsetWidth)
-    ballCurrentPosition[1] = Math.min(Math.max(ballCurrentPosition[1], 0), boardHeight-ball.offsetHeight)
-    ball.style.left = ballCurrentPosition[0] + "px"
-    ball.style.bottom = ballCurrentPosition[1] + "px" 
+    ballCurrentPosition.x = Math.min(Math.max(ballCurrentPosition.x, 0), boardWidth-ball.offsetWidth)
+    ballCurrentPosition.y = Math.min(Math.max(ballCurrentPosition.y, 0), boardHeight-ball.offsetHeight)
+    ball.style.left = ballCurrentPosition.x + "px"
+    ball.style.bottom = ballCurrentPosition.y + "px" 
 }
 
 //move user
 function moveUser(e) {
     switch(e.key) {
         case "ArrowLeft":
-            userCurrentPosition[0] -= userXMove
+            userCurrentPosition.x -= userXMove
             drawUser()
             break;
         
         case "ArrowRight":
-            userCurrentPosition[0] += userXMove
+            userCurrentPosition.x += userXMove
             drawUser()
             break;
     }
@@ -114,8 +113,8 @@ grid.appendChild(ball)
 
 //move ball
 function moveBall() {
-    ballCurrentPosition[0] += xDirection
-    ballCurrentPosition[1] += yDirection
+    ballCurrentPosition.x += xDirection
+    ballCurrentPosition.y += yDirection
     drawBall()
     checkForCollisions()
 }
@@ -124,15 +123,15 @@ timerId = setInterval(moveBall, ballSpeed)
 
 //check for collisions
 function checkForCollisions() {
-    
+
     //check for block collisions
     for (let i = 0; i < blocks.length; i++) {
         
         if (
-            (ballCurrentPosition[0] >= blocks[i].bottomLeft[0]) &&
-            (ballCurrentPosition[0] <= blocks[i].bottomRight[0]) &&
-            (ballCurrentPosition[1] + ball.offsetHeight > blocks[i].bottomLeft[1]) &&
-            (ballCurrentPosition[1] < blocks[i].topLeft[1])
+            (ballCurrentPosition.x >= blocks[i].bottomLeft.x) &&
+            (ballCurrentPosition.x <= blocks[i].bottomRight.x) &&
+            (ballCurrentPosition.y + ball.offsetHeight > blocks[i].bottomLeft.y) &&
+            (ballCurrentPosition.y < blocks[i].topLeft.y)
         ) {
             const allBlocks = Array.from(document.querySelectorAll(".block"))
             allBlocks[i].classList.remove("block")
@@ -152,24 +151,24 @@ function checkForCollisions() {
 
     //check for wall collisions
     if (
-        (ballCurrentPosition[0] >= (boardWidth-ball.offsetWidth)) || 
-        (ballCurrentPosition[0] <= 0) || 
-        (ballCurrentPosition[1] >= (boardHeight-ball.offsetHeight))
+        (ballCurrentPosition.x >= (boardWidth-ball.offsetWidth)) || 
+        (ballCurrentPosition.x <= 0) || 
+        (ballCurrentPosition.y >= (boardHeight-ball.offsetHeight))
     ) {
         changeDirection()
     }
 
     //check for user collision
-    if (ballCurrentPosition[0] > userCurrentPosition[0] && 
-        ballCurrentPosition[0] < userCurrentPosition[0] + blockWidth &&
-        ballCurrentPosition[1] > userCurrentPosition[1] &&
-        ballCurrentPosition[1] < userCurrentPosition[1] + blockHeight
+    if (ballCurrentPosition.x > userCurrentPosition.x && 
+        ballCurrentPosition.x < userCurrentPosition.x + blockWidth &&
+        ballCurrentPosition.y > userCurrentPosition.y &&
+        ballCurrentPosition.y < userCurrentPosition.y + blockHeight
     ) {
         changeDirection()
     }
 
     //check for game over
-    if (ballCurrentPosition[1] <= 0) {
+    if (ballCurrentPosition.y <= 0) {
         scoreDisplay.innerHTML = "Game over"
         clearInterval(timerId)
         document.removeEventListener("keydown", moveUser)
