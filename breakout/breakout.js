@@ -70,6 +70,7 @@ addBlock()
 //add user
 const user = document.createElement("div")
 user.classList.add("user")
+user.classList.add("block")
 drawUser()
 grid.appendChild(user)
 
@@ -78,6 +79,10 @@ function drawUser() {
     userCurrentPosition.x = Math.min(Math.max(userCurrentPosition.x, 10), boardWidth-blockWidth-10)
     user.style.left = userCurrentPosition.x + "px"
     user.style.bottom = userCurrentPosition.y + "px" 
+    user.bottomLeft = {x: userCurrentPosition.x, y: userCurrentPosition.y}
+    user.bottomRight = {x: userCurrentPosition.x + blockWidth, y: userCurrentPosition.y}
+    user.topLeft = {x: userCurrentPosition.x, y: userCurrentPosition.y + blockHeight}
+    user.topRight = {x: userCurrentPosition.x + blockWidth, y: userCurrentPosition.y + blockHeight}
 }
 
 //draw ball
@@ -86,6 +91,10 @@ function drawBall() {
     ballCurrentPosition.y = Math.min(Math.max(ballCurrentPosition.y, 0), boardHeight-ball.offsetHeight)
     ball.style.left = ballCurrentPosition.x + "px"
     ball.style.bottom = ballCurrentPosition.y + "px" 
+    ball.bottomLeft = {x: ballCurrentPosition.x, y: ballCurrentPosition.y}
+    ball.bottomRight = {x: ballCurrentPosition.x + ball.offsetWidth, y: ballCurrentPosition.y}
+    ball.topLeft = {x: ballCurrentPosition.x, y: ballCurrentPosition.y + ball.offsetHeight}
+    ball.topRight = {x: ballCurrentPosition.x + ball.offsetWidth, y: ballCurrentPosition.y + ball.offsetHeight}
 }
 
 //move user
@@ -126,19 +135,20 @@ function checkForCollisions() {
 
     //check for block collisions
     for (let i = 0; i < blocks.length; i++) {
-        
+
         if (
-            (ballCurrentPosition.x >= blocks[i].bottomLeft.x) &&
-            (ballCurrentPosition.x <= blocks[i].bottomRight.x) &&
-            (ballCurrentPosition.y + ball.offsetHeight > blocks[i].bottomLeft.y) &&
-            (ballCurrentPosition.y < blocks[i].topLeft.y)
+            (ball.bottomRight.x >= blocks[i].topLeft.x) &&
+            (ball.bottomLeft.x <= blocks[i].topRight.x) &&
+            (ball.topLeft.y > blocks[i].bottomLeft.y) &&
+            (ball.topLeft.y < blocks[i].topLeft.y)
         ) {
             const allBlocks = Array.from(document.querySelectorAll(".block"))
             allBlocks[i].classList.remove("block")
             blocks.splice(i,1)
-            changeDirection()
+            yDirection = -yDirection
             score++
             scoreDisplay.innerHTML = score
+            console.log(user.width);
         }
 
         //check for win
@@ -150,22 +160,16 @@ function checkForCollisions() {
     }
 
     //check for wall collisions
-    if (
-        (ballCurrentPosition.x >= (boardWidth-ball.offsetWidth)) || 
-        (ballCurrentPosition.x <= 0) || 
-        (ballCurrentPosition.y >= (boardHeight-ball.offsetHeight))
-    ) {
-        changeDirection()
-    }
+    if (ball.topRight.x >= boardWidth || ball.topLeft.x <= 0) {xDirection = -xDirection}
+    if (ball.topLeft.y >= boardHeight || ball.topLeft.y <= 0) {yDirection = -yDirection}
 
-    //check for user collision
-    if (ballCurrentPosition.x > userCurrentPosition.x && 
-        ballCurrentPosition.x < userCurrentPosition.x + blockWidth &&
-        ballCurrentPosition.y > userCurrentPosition.y &&
-        ballCurrentPosition.y < userCurrentPosition.y + blockHeight
-    ) {
-        changeDirection()
-    }
+    // //check for user collision
+    if (
+        (ball.bottomRight.x >= user.topLeft.x) &&
+        (ball.bottomLeft.x <= user.topRight.x) &&
+        (ball.bottomLeft.y <= user.topLeft.y) &&
+        (yDirection < 0)
+    ) {yDirection = -yDirection}
 
     //check for game over
     if (ballCurrentPosition.y <= 0) {
@@ -173,11 +177,4 @@ function checkForCollisions() {
         clearInterval(timerId)
         document.removeEventListener("keydown", moveUser)
     }
-}
-
-function changeDirection() {
-    if ((xDirection > 0) && (yDirection > 0)) {yDirection = -yDirection; return}
-    if ((xDirection > 0) && (yDirection < 0)) {xDirection = -xDirection; return}
-    if ((xDirection < 0) && (yDirection < 0)) {yDirection = -yDirection; return}
-    if ((xDirection < 0) && (yDirection > 0)) {xDirection = -xDirection; return}
 }
