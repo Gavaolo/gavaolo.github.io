@@ -18,6 +18,7 @@ let userCurrentPosition = userStartPosition
 
 const ballStartPosition = [270, 40]
 let ballCurrentPosition = ballStartPosition
+
 //create block
 class Block {
     constructor(xAxis, yAxis) {
@@ -30,6 +31,7 @@ class Block {
 
 //all blocks
 const blocks = [
+
     //1st row
     new Block(10 + xGap * 0,270),
     new Block(10 + xGap * 1,270),
@@ -122,6 +124,7 @@ timerId = setInterval(moveBall, ballSpeed)
 
 //check for collisions
 function checkForCollisions() {
+    
     //check for block collisions
     for (let i = 0; i < blocks.length; i++) {
         
