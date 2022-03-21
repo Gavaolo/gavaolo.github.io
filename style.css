@@ -246,11 +246,11 @@ img{
 }
 
 .btn-show-all>i{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .btn-show-all:hover>i{
- margin-left: 25px;
+  transform: translateX(5px);
 }
 
 /* Contact section */

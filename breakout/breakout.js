@@ -130,7 +130,7 @@ function checkForCollisions() {
             (ballCurrentPosition[0] <= blocks[i].bottomRight[0]) &&
             (ballCurrentPosition[1] + ball.offsetHeight > blocks[i].bottomLeft[1]) &&
             (ballCurrentPosition[1] < blocks[i].topLeft[1])
-        ){
+        ) {
             const allBlocks = Array.from(document.querySelectorAll(".block"))
             allBlocks[i].classList.remove("block")
             blocks.splice(i,1)
@@ -152,7 +152,7 @@ function checkForCollisions() {
         (ballCurrentPosition[0] >= (boardWidth-ball.offsetWidth)) || 
         (ballCurrentPosition[0] <= 0) || 
         (ballCurrentPosition[1] >= (boardHeight-ball.offsetHeight))
-        ) {
+    ) {
         changeDirection()
     }
 
@@ -161,9 +161,9 @@ function checkForCollisions() {
         ballCurrentPosition[0] < userCurrentPosition[0] + blockWidth &&
         ballCurrentPosition[1] > userCurrentPosition[1] &&
         ballCurrentPosition[1] < userCurrentPosition[1] + blockHeight
-        ) {
-            changeDirection()
-        }
+    ) {
+        changeDirection()
+    }
 
     //check for game over
     if (ballCurrentPosition[1] <= 0) {
