@@ -1,6 +1,5 @@
 /* global React, ReactDOM */
 /* eslint-disable react/no-multi-comp, react/prop-types, max-len */
-// coded by @no-stack-dub-sack (github) / @no_stack_sub_sack (codepen)
 
 /** NOTES:
 /** Dependencies are React, ReactDOM, and
@@ -17,12 +16,6 @@
 // PROJECTOR SELECTOR FOR EXTERNAL TEST SCRIPT:
 // eslint-disable-next-line no-unused-vars
 const projectName = '25-5-clock';
-
-// Accurate_Interval.js
-// Thanks Squeege! For the elegant answer provided to this question:
-// http://stackoverflow.com/questions/8173580/setinterval-timing-slowly-drifts-away-from-staying-accurate
-// Github: https://gist.github.com/Squeegy/1d99b3cd81d610ac7351
-// Slightly modified to accept 'normal' interval/timeout format (func, time).
 
 const accurateInterval = function (fn, time) {
   var cancel, nextAt, timeout, wrapper;
@@ -47,24 +40,16 @@ class TimerLengthControl extends React.Component {
   render() {
     return (
       <div className="length-control">
+        {/* Title over buttons */}
         <div id={this.props.titleID}>{this.props.title}</div>
-        <button
-          className="btn-level"
-          id={this.props.minID}
-          onClick={this.props.onClick}
-          value="-"
-        >
+        {/* Button arrow down */}
+        <button className="btn-level" id={this.props.minID} onClick={this.props.onClick} value="-">
           <i className="fa fa-arrow-down fa-2x" />
         </button>
-        <div className="btn-level" id={this.props.lengthID}>
-          {this.props.length}
-        </div>
-        <button
-          className="btn-level"
-          id={this.props.addID}
-          onClick={this.props.onClick}
-          value="+"
-        >
+        {/* Number between arrows */}
+        <div className="btn-level" id={this.props.lengthID}>{this.props.length}</div>
+        {/* Button arrow up */}
+        <button className="btn-level" id={this.props.addID} onClick={this.props.onClick} value="+">
           <i className="fa fa-arrow-up fa-2x" />
         </button>
       </div>
@@ -82,7 +67,7 @@ class Timer extends React.Component {
       timerType: 'Session',
       timer: 1500,
       intervalID: '',
-      alarmColor: { color: 'white' }
+      alarmColor: { color: '#009999' }
     };
     this.setBrkLength = this.setBrkLength.bind(this);
     this.setSeshLength = this.setSeshLength.bind(this);
@@ -178,7 +163,7 @@ class Timer extends React.Component {
     if (_timer < 61) {
       this.setState({ alarmColor: { color: '#a50d0d' } });
     } else {
-      this.setState({ alarmColor: { color: 'white' } });
+      this.setState({ alarmColor: { color: 'red' } });
     }
   }
   buzzer(_timer) {
@@ -190,7 +175,7 @@ class Timer extends React.Component {
     this.setState({
       timer: num,
       timerType: str,
-      alarmColor: { color: 'white' }
+      alarmColor: { color: '#009999' }
     });
   }
   clockify() {
@@ -208,7 +193,7 @@ class Timer extends React.Component {
       timerType: 'Session',
       timer: 1500,
       intervalID: '',
-      alarmColor: { color: 'white' }
+      alarmColor: { color: '#009999' }
     });
     if (this.state.intervalID) {
       this.state.intervalID.cancel();
@@ -252,13 +237,6 @@ class Timer extends React.Component {
           <button id="reset" onClick={this.reset}>
             <i className="fa fa-refresh fa-2x" />
           </button>
-        </div>
-        <div className="author">
-          {' '}
-          Designed and Coded by <br />
-          <a href="https://goo.gl/6NNLMG" target="_blank">
-            Peter Weinberg
-          </a>
         </div>
         <audio
           id="beep"
