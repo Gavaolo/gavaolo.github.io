@@ -128,6 +128,16 @@ nav{
   }
 }
 
+@media (max-width: 550px) {
+  nav a{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #top-link, #footer-link{
+    display: none;
+  }
+}
+
 nav a:hover{
   color: var(--black);
   background-color: var(--white);
@@ -262,7 +272,7 @@ nav a:active{
 }
 
 #section_2{
-  margin: 30px;
+  margin: 20px;
   margin-top: 80px;
   display: flex;
   flex-direction: row;
@@ -320,15 +330,15 @@ nav a:active{
   box-shadow: none;
 }
 
-@media (max-width: 800px){
-  #pricing{
-    flex-direction: column;
-  }
-  
+@media (max-width: 550px){ 
   .product{
-    max-width: 300px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  #section_2{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
