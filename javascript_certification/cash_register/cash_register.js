@@ -1,6 +1,6 @@
 function checkCashRegister(price, cash, cid) {
     
-  let change = cash-price;
+  let change = cash-price
 
   var localCid = cid.map(function(arr) {return arr.slice()})
   
@@ -50,7 +50,7 @@ function checkCashRegister(price, cash, cid) {
     if(cid[i][1] != localCid[i][1])rest.push([cid[i][0],parseFloat((cid[i][1] - localCid[i][1]).toFixed(4))])
   }
 
-  return {status:"OPEN", change: rest.reverse()};
+  return {status:"OPEN", change: rest.reverse()}
 
 }
-console.log(checkCashRegister(3.26, 100, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]));
+console.log(checkCashRegister(3.26, 100, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]))
