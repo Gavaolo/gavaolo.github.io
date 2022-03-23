@@ -174,4 +174,3 @@ startPauseButton.addEventListener("click", () => {
         document.addEventListener("keyup", moveFrog)
     }
 })
-

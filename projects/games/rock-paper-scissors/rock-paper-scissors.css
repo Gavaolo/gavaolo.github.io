@@ -1,4 +1,4 @@
-:root{
+:root {
   --black: rgba(0,0,0,1);
   --grey: rgba(220,220,220,1);
   --soft-white: rgba(248,248,248,1);
@@ -12,25 +12,25 @@
   --btn-trx: 5px;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   transition: all 100ms;
 }
 
-html{
+html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: Poppins , sans-serif;
 
 }
 
-body{
+body {
   color: var(--black);
   background-color: var(--white);
 }
 
-main{
+main {
   background-color: var(--soft-white);
   max-width: 500px;
   width: 90%;
@@ -40,22 +40,22 @@ main{
   margin: auto;
 }
 
-h2{
+h2 {
   margin-bottom: 30px;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-#button-group{
+#button-group {
   margin-right: 20px;
   margin-top: 20px;
   width: 100%;
   text-align: center;
 }
 
-.button-choice{
+.button-choice {
   padding: 0 20px;
   height: 40px;
   font-size: 1em;
@@ -68,18 +68,18 @@ button{
   margin-top: 20px;
 }
 
-.button-choice:hover{
+.button-choice:hover {
   color: var(--black);
   background-color: var(--white);
 }
 
-.button-choice:active{
+.button-choice:active {
   color: var(--black);
   background-color: var(--grey);
   box-shadow: none;
 }
 
-.choice{
+.choice {
   height: 40px;
   font-size: 1em;
   background-color: var(--main-col);
