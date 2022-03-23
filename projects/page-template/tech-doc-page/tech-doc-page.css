@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
-:root{
+:root {
   --black: rgba(0,0,0,1);
   --grey: rgba(100,100,100,1);
   --dark-grey: rgba(70,70,70,1);
@@ -13,7 +13,7 @@
   --hard-radius: 10px;
 }
 
-html, body{
+html, body {
   min-width: 290px;
   background-color: var(--soft-white);
   font-family: Poppins , sans-serif; 
@@ -21,12 +21,12 @@ html, body{
   scroll-behavior: smooth;
 }
 
-*{
+* {
   scroll-margin-top: 20px;
   transition: all 200ms;
 }
 
-#navbar{
+#navbar {
   position: fixed;
   min-width: 250px;
   top: 0px;
@@ -38,37 +38,37 @@ html, body{
   text-align: center;
 }
 
-header{
+header {
   color: var(--main-col);
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
 }
 
-#main-doc header{
+#main-doc header {
   text-align: left;
 }
 
-#navbar header{
+#navbar header {
   border-radius: var(--soft-radius);
   box-shadow: var(--soft-shadow);
   margin: 10px;
 }
 
-#navbar ul{
+#navbar ul {
   height: 88%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-#navbar li{
+#navbar li {
   list-style: none;
   position: relative;
   width: 100%;
 }
 
-#navbar a{
+#navbar a {
   display: block;
   padding: 10px 30px;
   color: var(--black);
@@ -77,23 +77,23 @@ header{
   transition: all 0ms;
 }
 
-#navbar a:hover{
+#navbar a:hover {
     color: var(--soft-white);
     background-color: var(--grey);
   }
 
-#navbar a:active{
+#navbar a:active {
     color: var(--soft-white);
     background-color: var(--dark-grey);
   }
 
-#main-doc{
+#main-doc {
   position: absolute;
   margin-left: 300px;
   padding-right: 60px;
 }
 
-.main-section{
+.main-section {
   background-color: var(--white);
   border-radius: var(--soft-radius);
   box-shadow: var(--soft-shadow);
@@ -101,11 +101,11 @@ header{
   padding: 20px;
 }
 
-section li{
+section li {
   margin: 15px 0px 0px 20px;
 }
 
-code{
+code {
   display: block;
   text-align: left;
   white-space: pre-line;
@@ -120,28 +120,28 @@ code{
   box-shadow: var(--dark-shadow);
 }
 
-#section-0{
+#section-0 {
   margin-top: 10px;
 }
 
-#section-13{
+#section-13 {
   margin-bottom: 20px;
 }
 
-#section-13 a{
+#section-13 a {
   color: var(--main-col);
 }
 
-#section-13 a:hover{
+#section-13 a:hover {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 815px){
-  #navbar ul{
+@media only screen and (max-width: 815px) {
+  #navbar ul {
     height: 207px;
   }
   
-  #navbar{
+  #navbar {
     position: absolute;
     top: 0;
     padding: 0;
@@ -151,7 +151,7 @@ code{
     z-index: 1;
   }
   
-  #main-doc{
+  #main-doc {
     position: relative;
     margin-left: 20px;
     padding-right: 20px;

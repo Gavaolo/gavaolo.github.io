@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
-:root{
+:root {
   --black: rgb1(0,0,0,1);
   --grey: rgba(220,220,220,1);
   --soft-white: rgba(248,248,248,1);
@@ -12,7 +12,7 @@
   --hard-radius: 10px;
 }
 
-*{
+* {
   font-family: Poppins , sans-serif;  
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@
   transition: all 100ms;
 }
 
-body{
+body {
     font-family: Roboto , sans-serif;
     color: var(--black);
     background-color: var(--soft-white);
@@ -29,14 +29,14 @@ body{
     margin: 0;
 }
 
-main{
+main {
     display: block;
     max-width: 1200px;
     width: 90%;
     margin: auto;
 }
 
-.section{
+.section {
     background-color: var(--white);
     border-radius: var(--soft-radius);
     box-shadow: var(--soft-shadow);
@@ -44,12 +44,12 @@ main{
     padding: 30px;
 }
 
-#title{
+#title {
     font-weight: 900;
     color: var(--main-col);
 }
 
-#image{
+#image {
     max-width: 90%;
     display: block;
     margin: 30px auto 10px auto;
@@ -57,14 +57,14 @@ main{
     box-shadow: var(--soft-shadow);
 }
 
-#tribute-text{
+#tribute-text {
     text-align: left;
 }
 
-a{
+a {
     color: var(--main-col);
 }
 
-a:hover{
+a:hover {
    font-weight: bold;
 }

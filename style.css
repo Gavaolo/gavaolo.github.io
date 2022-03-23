@@ -233,12 +233,12 @@ img {
   box-shadow: var(--soft-shadow);
 }
 
-.btn-show-all :hover {
+.btn-show-all:hover {
   background: var(--white);
   color: var(--black);
 }
 
-.btn-show-all :active {
+.btn-show-all:active {
   background-color: var(--grey);
   box-shadow: none;
 }
@@ -247,7 +247,7 @@ img {
   margin-left: 10px;
 }
 
-.btn-show-all :hover > i {
+.btn-show-all:hover > i {
   transform: translateX(5px);
 }
 
@@ -283,7 +283,7 @@ img {
   color: var(--main-col);
 }
 
-.contact-details :hover {
+.contact-details:hover {
   transform: translateY(5px);
   text-shadow: 10px 10px 10px rgba(100,100,100,1);
 }

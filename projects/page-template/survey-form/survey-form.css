@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
-:root{
+:root {
   --black: rgba(0,0,0,1);
   --grey: rgba(220,220,220,1);
   --soft-white: rgba(248,248,248,1);
@@ -12,7 +12,7 @@
   --hard-radius: 10px;
 }
 
-*{
+* {
   font-family: Poppins , sans-serif;  
   margin: 0;
   padding: 0;
@@ -21,26 +21,26 @@
   transition: all 100ms;
 }
 
-body{
+body {
   color: var(--black);
   background-color: var(--white);
 }
 
-textarea:focus, input:focus, select:focus{
+textarea:focus, input:focus, select:focus {
   border: none;
   box-shadow: var(--soft-shadow);
   outline: none;
 }
 
-input, select, textarea, button{
+input, select, textarea, button {
   cursor: pointer;
 }
 
-label{
+label {
   display: block;
 }
 
-main{
+main {
   background-color: var(--soft-white);
   max-width: 1000px;
   width: 90%;
@@ -50,7 +50,7 @@ main{
   box-shadow: var(--soft-shadow);
 }
 
-#title-group{
+#title-group {
   color: var(--main-col);
   text-align: center;
   background-color: var(--white);
@@ -59,15 +59,15 @@ main{
   box-shadow: var(--soft-shadow);
 }
 
-#description{
+#description {
   border: none;
 }
 
-form{
+form {
   margin-top: 2rem;
 }
 
-.form-group{
+.form-group {
   background-color: var(--white);
   margin-bottom: 1rem;
   padding: 1rem;
@@ -75,7 +75,7 @@ form{
   box-shadow: var(--soft-shadow);
 }
 
-.form-input{
+.form-input {
   background-color: var(--soft-white);
   display: block;
   width: 100%;
@@ -84,19 +84,19 @@ form{
   margin-top: 0.25rem;
 }
 
-.form-description{
+.form-description {
   margin-bottom: 10px;
 }
 
-.input-radio{
+.input-radio {
   margin: 0.5rem;
 }
 
-.input-checkbox{
+.input-checkbox {
   margin: 0.5rem;
 }
 
-#add_comments{
+#add_comments {
   background-color: var(--soft-white);
   width: 100%;
   height: 7rem;
@@ -106,12 +106,12 @@ form{
   resize: none;
 }
 
-#submit-group{
+#submit-group {
   margin-bottom: 0;
   margin-top: 2rem;
 }
 
-#submit{
+#submit {
   width: 100%;
   border-radius: var(--soft-radius);
   box-shadow: var(--soft-shadow);
@@ -121,18 +121,18 @@ form{
   border: none;
 }
 
-#submit:hover{
+#submit:hover {
   background-color: var(--white);
   color: var(--black);
 }
 
-#submit:active{
+#submit:active {
   background-color: var(--grey);
   color: var(--black);
   box-shadow: none;
 }
 
-.form-description{
+.form-description {
   display: block;
   border: 1px solid var(--grey);
   border-radius: var(--soft-radius);  
