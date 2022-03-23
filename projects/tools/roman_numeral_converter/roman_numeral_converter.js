@@ -16,7 +16,7 @@ function convertToRoman(num) {
   while((num >= 1) && (num < 4)) result += "I", num -= 1
   while((num >= 4) && (num < 5)) result += "IV", num -= 5
 
- return result;
+ return result
 }
 
-console.log(convertToRoman(4));
+console.log(convertToRoman(4))

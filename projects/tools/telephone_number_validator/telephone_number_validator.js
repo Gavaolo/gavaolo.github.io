@@ -7,4 +7,4 @@ function telephoneCheck(str) {
 
 }
 
-console.log(telephoneCheck("2(757)622-7382"));
+console.log(telephoneCheck("2(757)622-7382"))
