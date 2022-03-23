@@ -1,16 +1,34 @@
-const squares = document.querySelectorAll(".grid div")
+const board = document.querySelector(".grid")
 const result = document.querySelector("#result")
 const displayCurrentPlayer = document.querySelector("#current-player")
+const boardWidth = 7
+const boardHeight = 7
 let currentPlayer = 1
+let squares = []
+
+class Grid {
+    constructor
+}
+
+function createBoard() {
+    for (let i = 0; i < (boardWidth * boardHeight); i++) {
+        squares[i] = document.createElement("div")
+        squares[i].classList.add("square")
+        if (i >= ((boardWidth * boardHeight) - boardWidth)) squares[i].classList.add("taken")
+        board.appendChild(squares[i])
+    }
+}
 
 function checkBoard() {
 
 }
 
+createBoard()
+
 squares.forEach((square, i) => {
     square.onclick = () => {
         // if the square below your current square is taken, you can go on top of it
-        if (squares[i + 7].classList.contains("taken") &&! squares[i].classList.contains("taken")) {
+        if (squares[i + boardWidth].classList.contains("taken") &&! squares[i].classList.contains("taken")) {
             if (currentPlayer == 1) {
                 square.classList.add("taken")
                 square.classList.add("player-one")
