@@ -23,7 +23,7 @@
 + Cash Register: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/tools/cash_register)
 + Markdown Previewer: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/tools/markdown_previewer) - [[App]](https://rokuogun.github.io/projects/tools/markdown_previewer/markdown_previewer.html)
 + OTP Generator: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/tools/otp_generator)
-+ Palindrome Checker: [Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/tools/palindrome_checker)
++ Palindrome Checker: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/tools/palindrome_checker)
 + Proof of Work: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/tools/proof_of_work)
 + Roman Numeral Converter: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/tools/roman_numeral_converter)
 + Telephone Number Validator: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/tools/telephone_number_validator)
