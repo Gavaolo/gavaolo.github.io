@@ -1,4 +1,5 @@
 # RokuoGun's Projects
++ Portfolio: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/index) - [[App]](https://rokuogun.github.io)
 
 ## Games: 
 + Breakout: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/breakout) - [[App]](https://rokuogun.github.io/projects/games/breakout/breakout.html)
