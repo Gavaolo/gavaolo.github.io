@@ -13,4 +13,4 @@ function palindrome(str) {
   return arrAreEqual(myStrArr, myInvertedStrArr)
 }
 
-console.log(palindrome("eyes"));
+console.log(palindrome("eyes"))
