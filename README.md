@@ -10,7 +10,7 @@
 + Wac-A-Mole: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/wac-a-mole) - [[App]](https://rokuogun.github.io/projects/games/wac-a-mole/wac-a-mole.html)
 
 ## Page Template:
-+ Product Landing Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/product_landning_page) - [[App]](https://rokuogun.github.io/projects/page_template/product_landning_page/product_landning_page.html)
++ Product Landing Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/product_landing_page) - [[App]](https://rokuogun.github.io/projects/page_template/product_landning_page/product_landning_page.html)
 + Random Quote Machine: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/random_quote_machine) - [[App]](https://rokuogun.github.io/projects/page_template/random_quote_machine/random_quote_machine.html)
 + Survey Form: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/survey_form) - [[App]](https://rokuogun.github.io/projects/page_template/survey_form/survey_form.html)
 + Technical Documentation Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/tech_doc_page) - [[App]](https://rokuogun.github.io/projects/page_template/tech_doc_page/tech_doc_page.html)
