@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
-:root{
+:root {
   --black: rgba(0,0,0,1);
   --grey: rgba(220,220,220,1);
   --soft-white: rgba(248,248,248,1);
@@ -12,40 +12,40 @@
   --hard-radius: 10px;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   transition: all 200ms;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: var(--soft-white);
   font-family: Poppins , sans-serif;
 }
 
-#page-wrapper{
+#page-wrapper {
   position: relative;
 }
 
-li{
+li {
   list-style: none;
 }
 
-a{
+a {
   color: var(--black);
   text-decoration: none;
 }
 
-input, .btn{
+input, .btn {
   cursor: pointer;
 }
 
-.btn{
+.btn {
   padding: 0 20px;
   height: 40px;
   font-size: 1em;
@@ -56,7 +56,7 @@ input, .btn{
   border: none;
 }
 
-header{
+header {
   position: fixed;
   top: 0;
   min-height: 75px;
@@ -68,11 +68,11 @@ header{
   width: 100%;
 }
 
-.logo{
+.logo {
   margin-left: 10px;
 }
 
-.logo>img{
+.logo>img {
   width: 100%;
   height: 100%;
   max-width: 200px;
@@ -82,7 +82,7 @@ header{
   text-align: center;
 }
 
-nav a{
+nav a {
   border-radius: var(--soft-radius);
   padding: 10px 20px;
   box-shadow: var(--soft-shadow);
@@ -93,22 +93,22 @@ nav a{
   margin-right: 10px;
 }
 
-nav>ul{
+nav>ul {
   display: flex;
   padding: 10px;
 }
 
-nav{
+nav {
   margin-left: auto;
   margin-right: 0px;
 }
 
-@media (max-width: 800px) {
-  header{
+@media (max-width: 800px)  {
+  header {
     flex-wrap: wrap;
   }
   
-  nav{
+  nav {
     margin-top: 10px;
     width: 100%;
     display: flex;
@@ -117,39 +117,39 @@ nav{
     text-align: center;
   }
   
-  nav li{
+  nav li {
     margin-bottom: 15px;
     margin-top: 5px;
   }
   
-  .logo{
+  .logo {
     margin: auto;
     margin-top: 10px;
   }
 }
 
-@media (max-width: 550px) {
-  nav a{
+@media (max-width: 550px)  {
+  nav a {
     margin-left: 5px;
     margin-right: 5px;
   }
-  #top-link, #footer-link{
+  #top-link, #footer-link {
     display: none;
   }
 }
 
-nav a:hover{
+nav a:hover {
   color: var(--black);
   background-color: var(--white);
 }
 
-nav a:active{
+nav a:active {
   color: var(--black);
   background-color: var(--grey);
   box-shadow: none;
 }
 
-#form-group{
+#form-group {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,12 +159,12 @@ nav a:active{
   margin-top: 80px;
 }
 
-#form-group>h2{
+#form-group>h2 {
   margin-bottom: 20px;
   word-wrap: break-word;
 }
 
-#form-group input[type='email']{
+#form-group input[type='email'] {
   max-width: 275px;
   width: 100%;
   padding: 10px;
@@ -173,38 +173,38 @@ nav a:active{
   box-shadow: var(--soft-shadow);
 }
 
-#form-group input[type='submit']{
+#form-group input[type='submit'] {
   max-width: 150px;
   width: 100%;
   height: 30px;
   margin: 15px 0;
 }
 
-#form-group input[type='submit']:hover{
+#form-group input[type='submit']:hover {
   background-color: var(--white);
   color: var(--black);
 }
 
-#form-group input[type='submit']:active{
+#form-group input[type='submit']:active {
   background-color: var(--grey);
   color: var(--black);
   box-shadow: none;
 }
 
-@media (max-width: 800px){
-  #form-group{
+@media (max-width: 800px) {
+  #form-group {
     margin-top: 120px;
   }
 }
 
-.container{
+.container {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 
 }
 
-.grid{
+.grid {
   display: flex;
   background-color: var(--white);
   box-shadow: var(--soft-shadow);
@@ -213,12 +213,12 @@ nav a:active{
   padding: 20px;
 }
 
-#section-0{
+#section-0 {
   margin-top: 30px;
   scroll-margin-top: 100px;
 }
 
-#section-0 .icon{
+#section-0 .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,13 +227,13 @@ nav a:active{
   margin: auto 30px;
 }
 
-@media (max-width: 550px){
-  #section-0 .icon {
+@media (max-width: 550px) {
+  #section-0 .icon  {
     display: none;
   }
 }
 
-#section-0 .desc{
+#section-0 .desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,21 +242,21 @@ nav a:active{
   margin: 10px;
 }
 
-@media (max-width: 550px){
-  #section-0 .desc {
+@media (max-width: 550px) {
+  #section-0 .desc  {
     width: 100%;
     text-align: center;
     padding: 5px;
   }
 }
 
-@media (max-width: 650px){
-  #section-0 {
+@media (max-width: 650px) {
+  #section-0  {
     margin-top: 0;
   }
 }
 
-#section-1{
+#section-1 {
   margin: 30px;
   margin-top: 80px;
   display: flex;
@@ -264,14 +264,14 @@ nav a:active{
   scroll-margin-top: 100px;
 }
 
-#section-1>iframe{
+#section-1>iframe {
   max-width: 560px;
   width: 100%;
   border-radius: var(--hard-radius);
   box-shadow: var(--dark-shadow);
 }
 
-#section-2{
+#section-2 {
   margin: 20px;
   margin-top: 80px;
   display: flex;
@@ -280,7 +280,7 @@ nav a:active{
   scroll-margin-top: 90px;
 }
 
-.product{
+.product {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -291,7 +291,7 @@ nav a:active{
   border-radius: var(--soft-radius);
 }
 
-.product>.level{
+.product>.level {
   background-color: var(--grey);
   color: var(--black);
   padding: 15px 0;
@@ -300,49 +300,49 @@ nav a:active{
   border-radius: var(--soft-radius) var(--soft-radius) 0px 0px;
 }
 
-.product>h2{
+.product>h2 {
   margin-top: 15px;
 }
 
-.product>ol{
+.product>ol {
   margin: 15px 0;
 }
 
-.product>ol>li{
+.product>ol>li {
   padding: 5px 0;
 }
 
-.product>button{
+.product>button {
   margin: 20px 0;
   font-weight: 400;
   background-color: var(--main-col);
   color: val(--white);
 }
 
-.product>button:hover{
+.product>button:hover {
   color: var(--black);
   background-color: var(--white);
 }
 
-.product>button:active{
+.product>button:active {
   color: var(--black);
   background-color: var(--grey);
   box-shadow: none;
 }
 
-@media (max-width: 550px){ 
-  .product{
+@media (max-width: 550px) { 
+  .product {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  #section-2{
+  #section-2 {
     display: flex;
     flex-wrap: wrap;
   }
 }
 
-footer{
+footer {
   border-radius: var(--soft-radius) var(--soft-radius) 0px 0px;
   box-shadow: var(--soft-shadow); 
   margin-top: 30px;
@@ -351,16 +351,16 @@ footer{
   width: 100%;
 }
 
-footer>ul{
+footer>ul {
   display: flex;
   justify-content: flex-end;
 }
 
-footer>ul>li{
+footer>ul>li {
   padding: 0 10px;
 }
 
-footer>span{
+footer>span {
   margin-top: 5px;
   display: flex;
   justify-content: flex-end;
