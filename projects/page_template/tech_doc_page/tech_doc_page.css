@@ -74,6 +74,7 @@ header{
   color: var(--black);
   text-decoration: none;
   cursor: pointer;
+  transition: all 0ms;
 }
 
 #navbar a:hover{
@@ -119,19 +120,19 @@ code{
   box-shadow: var(--dark-shadow);
 }
 
-#section_0{
+#section-0{
   margin-top: 10px;
 }
 
-#section_13{
+#section-13{
   margin-bottom: 20px;
 }
 
-#section_13 a{
+#section-13 a{
   color: var(--main-col);
 }
 
-#section_13 a:hover{
+#section-13 a:hover{
   font-weight: bold;
 }
 

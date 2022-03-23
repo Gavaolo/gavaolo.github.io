@@ -149,7 +149,7 @@ nav a:active{
   box-shadow: none;
 }
 
-#form_group{
+#form-group{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,12 +159,12 @@ nav a:active{
   margin-top: 80px;
 }
 
-#form_group>h2{
+#form-group>h2{
   margin-bottom: 20px;
   word-wrap: break-word;
 }
 
-#form_group input[type='email']{
+#form-group input[type='email']{
   max-width: 275px;
   width: 100%;
   padding: 10px;
@@ -173,26 +173,26 @@ nav a:active{
   box-shadow: var(--soft-shadow);
 }
 
-#form_group input[type='submit']{
+#form-group input[type='submit']{
   max-width: 150px;
   width: 100%;
   height: 30px;
   margin: 15px 0;
 }
 
-#form_group input[type='submit']:hover{
+#form-group input[type='submit']:hover{
   background-color: var(--white);
   color: var(--black);
 }
 
-#form_group input[type='submit']:active{
+#form-group input[type='submit']:active{
   background-color: var(--grey);
   color: var(--black);
   box-shadow: none;
 }
 
 @media (max-width: 800px){
-  #form_group{
+  #form-group{
     margin-top: 120px;
   }
 }
@@ -213,12 +213,12 @@ nav a:active{
   padding: 20px;
 }
 
-#section_0{
+#section-0{
   margin-top: 30px;
   scroll-margin-top: 100px;
 }
 
-#section_0 .icon{
+#section-0 .icon{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -228,12 +228,12 @@ nav a:active{
 }
 
 @media (max-width: 550px){
-  #section_0 .icon {
+  #section-0 .icon {
     display: none;
   }
 }
 
-#section_0 .desc{
+#section-0 .desc{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,7 +243,7 @@ nav a:active{
 }
 
 @media (max-width: 550px){
-  #section_0 .desc {
+  #section-0 .desc {
     width: 100%;
     text-align: center;
     padding: 5px;
@@ -251,12 +251,12 @@ nav a:active{
 }
 
 @media (max-width: 650px){
-  #section_0 {
+  #section-0 {
     margin-top: 0;
   }
 }
 
-#section_1{
+#section-1{
   margin: 30px;
   margin-top: 80px;
   display: flex;
@@ -264,14 +264,14 @@ nav a:active{
   scroll-margin-top: 100px;
 }
 
-#section_1>iframe{
+#section-1>iframe{
   max-width: 560px;
   width: 100%;
   border-radius: var(--hard-radius);
   box-shadow: var(--dark-shadow);
 }
 
-#section_2{
+#section-2{
   margin: 20px;
   margin-top: 80px;
   display: flex;
@@ -336,7 +336,7 @@ nav a:active{
     margin-bottom: 20px;
   }
 
-  #section_2{
+  #section-2{
     display: flex;
     flex-wrap: wrap;
   }
