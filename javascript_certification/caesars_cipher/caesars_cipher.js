@@ -20,7 +20,7 @@ function rot13(str) {
     newSplittedWords.push(word.map(letter => singleRot13(letter)))
   )
 
-  return newSplittedWords.join(" ").replace(/,/g, "");
+  return newSplittedWords.join(" ").replace(/,/g, "")
 }
 
-console.log(rot13("SERR PBQR PNZC!"));
+console.log(rot13("SERR PBQR PNZC!"))
