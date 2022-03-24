@@ -31,6 +31,16 @@ function checkUp(start, player) {
     
 }
 
+function checkDw(start, player) {
+    var cnt = 0
+    for (let i = start; i < 4; i -= boardWidth) {
+        if (squares[i].classList.contains(player)) cnt++
+        console.log(squares[i] + " " + cnt);
+    }
+    if (cnt==4) console.log(player + " wins!");
+    
+}
+
 function checkBoard() {
     for (let i = 0; i < (boardWidth * boardHeight); i++) {
         if (squares[i].classList.contains("player-one")) {
