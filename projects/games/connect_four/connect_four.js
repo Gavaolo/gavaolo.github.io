@@ -23,7 +23,7 @@ function createBoard() {
 
 function checkUp(start, player) {
     var cnt = 0
-    for (let i = start; i < 4; i += boardWidth) {
+    for (let i = start; i <= (start + boardWidth); i += boardWidth) {
         if (squares[i].classList.contains(player)) cnt++
         console.log(squares[i] + " " + cnt);
     }
@@ -33,7 +33,7 @@ function checkUp(start, player) {
 
 function checkDw(start, player) {
     var cnt = 0
-    for (let i = start; i < 4; i -= boardWidth) {
+    for (let i = start; i >= (start - boardWidth); i += boardWidth) {
         if (squares[i].classList.contains(player)) cnt++
         console.log(squares[i] + " " + cnt);
     }
@@ -45,6 +45,7 @@ function checkBoard() {
     for (let i = 0; i < (boardWidth * boardHeight); i++) {
         if (squares[i].classList.contains("player-one")) {
             checkUp(i, "player-one")
+            checkDw(i, "player-one")
         }
         
     }
