@@ -1,6 +1,6 @@
-const app = (
+const page = (
     <div>
-        <img src="./img/react-logo.png" />
+        <img src="./img/react-logo.png" width="50px" />
         <h1>Fun facts about React</h1>
         <ul>
             <li>Was firtst released in 2013</li>
@@ -12,4 +12,4 @@ const app = (
     </div>
 )
 
-ReactDOM.render(app, document.querySelector("#root"))
+ReactDOM.render(page, document.querySelector("#root"))
