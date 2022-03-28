@@ -1,6 +1,6 @@
 import pyotp
 import time
-totp=pyotp.TOTP('paste here auth key')
+totp = pyotp.TOTP('paste here auth key')
 totp.now()
 
 while(True):
