@@ -2,7 +2,9 @@ function Header() {
     return (
         <header>
             <nav>
-                <img src="./img/react-logo.png" width="40px" />
+                <img src="./img/react-logo.png" className="nav-icon" />
+                <h3 className="nav-logo-text">ReactFacts</h3>
+                <h4 className="nav-title">React Course - Project 1</h4>
             </nav>
         </header>
     )
@@ -10,23 +12,16 @@ function Header() {
 
 function MainContent() {
     return (
-        <div>
-            <h1>Reasons I'm excited to learn React</h1>
-            <ol>
-                <li>It's a popular library, so I'll be 
-                able to fit in with the cool kids!</li>
-                <li>I'm more likely to get a job as a developer
-                if I know React</li>
-            </ol>
-        </div>
-    )
-}
-
-function Footer() {
-    return (
-        <footer>
-            <small>© 2021 Ziroll development. All rights reserved.</small>
-        </footer>
+        <main>
+            <h1 className="main-title">Fun facts about React</h1>
+            <ul className="main-facts">
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100K stars on GitHub</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
+        </main>
     )
 }
 
@@ -35,7 +30,6 @@ function App() {
         <div>
             <Header />
             <MainContent />
-            <Footer />
         </div>
     )
 }
