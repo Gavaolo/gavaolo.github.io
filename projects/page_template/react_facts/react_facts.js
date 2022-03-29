@@ -1,36 +1,11 @@
-function Header() {
-    return (
-        <header>
-            <nav>
-                <img src="./img/react-logo.png" width="40px" />
-            </nav>
-        </header>
-    )
-}
+import Footer from ".\components\Footer.js"
+import Header from ".\components\Header.js"
+import MainContent from ".\components\MainContent.js"
+import react from "https://unpkg.com/react@17/umd/react.development.js"
+import ReactDOM from "react-dom"
 
-function Footer() {
-    return (
-        <footer>
-            <small>© 2021 Ziroll development. All rights reserved.</small>
-        </footer>
-    )
-}
 
-function MainContent() {
-    return (
-        <div>
-            <h1>Reasons I'm excited to learn React</h1>
-            <ol>
-                <li>It's a popular library, so I'll be 
-                able to fit in with the cool kids!</li>
-                <li>I'm more likely to get a job as a developer
-                if I know React</li>
-            </ol>
-        </div>
-    )
-}
-
-function Page() {
+function App() {
     return (
         <div>
             <Header />
@@ -40,4 +15,4 @@ function Page() {
     )
 }
 
-ReactDOM.render(<Page />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
