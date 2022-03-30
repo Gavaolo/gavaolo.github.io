@@ -72,19 +72,17 @@ header {
   display: block;
   padding: 10px 30px;
   color: var(--black);
+  background-color: var(--soft-white);
   text-decoration: none;
   cursor: pointer;
-  transition: all 0ms;
 }
 
 #navbar a:hover {
-    color: var(--soft-white);
-    background-color: var(--grey);
+    filter: brightness(80%);
   }
 
 #navbar a:active {
-    color: var(--soft-white);
-    background-color: var(--dark-grey);
+  filter: brightness(60%);
   }
 
 #main-doc {
@@ -133,7 +131,7 @@ code {
 }
 
 #section-13 a:hover {
-  font-weight: bold;
+  filter: brightness(50%);
 }
 
 @media only screen and (max-width: 815px) {

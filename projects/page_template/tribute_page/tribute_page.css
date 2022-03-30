@@ -66,5 +66,5 @@ a {
 }
 
 a:hover {
-   font-weight: bold;
+   filter: brightness(90%);
 }
