@@ -1,11 +1,3 @@
-// https://www.figma.com/file/4ctPLUvIn5b5Ep6YPOZWWd/Digital-Business-Card?node-id=0%3A1
-
-// use separate components for:
-//     - info (photo, name, buttons)
-//     - about
-//     - interests
-//     - footer (social icons)
-
 function Header() {
     return (
         <header>
@@ -20,8 +12,8 @@ function Header() {
 function Nav() {
     return (
         <nav>
-            <button><i className="fas fa-envelope"></i>Email</button>
-            <button className="linkedin-btn"><i className="fab fa-linkedin"></i>Linkedin</button>
+            <a href="mailto:gavassopaolo@gmail.com" target="_blank"><i className="fas fa-envelope"></i>Email</a>
+            <a href="https://www.linkedin.com/in/paolo-gavasso-85a534192" target="_blank" className="linkedin-link"><i className="fab fa-linkedin"></i>Linkedin</a>
         </nav>
     )
 }

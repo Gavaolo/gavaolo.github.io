@@ -50,22 +50,24 @@ nav {
     margin-top: 10px;
 }
 
-nav > button {
+nav > a {
     margin: 0px 10px;
     padding: 10px 20px;
+    background-color: white;
+    color: #1A1B21;
     border-radius: 10px;
-    border: none;
+    text-decoration: none;
 }
 
-nav > button:hover {
+nav > a:hover {
     filter: brightness(80%);
 } 
 
-nav > button > i {
+nav > a > i {
     margin-right: 5px;
 }
 
-.linkedin-btn {
+.linkedin-link {
     color: white;
     background: #5093E2;
 }
