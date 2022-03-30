@@ -20,8 +20,8 @@ function Header() {
 function Nav() {
     return (
         <nav>
-            <button>Email</button>
-            <button>Linkedin</button>
+            <button><i className="fas fa-envelope"></i>Email</button>
+            <button className="linkedin-btn"><i className="fab fa-linkedin"></i>Linkedin</button>
         </nav>
     )
 }
@@ -40,11 +40,10 @@ function MainContent() {
 function Footer() {
     return (
         <footer>
-            <a href="https://www.facebook.com/paolo.gavasso" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://twitter.com/GavassoPaolo?t=8OcKEZgmCzjcR8qPsGja0A&s=09" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/gavaolo/?hl=it" target="_blank" class="btn contact-details"><i class="fab fa-instagram"></i></a>      
-            <a href="https://www.linkedin.com/in/paolo-gavasso-85a534192" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i></a>      
-            <a id="profile-link" href="https://github.com/RokuoGun" target="_blank" class="btn contact-details"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/paolo.gavasso" target="_blank"><i className="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://twitter.com/GavassoPaolo?t=8OcKEZgmCzjcR8qPsGja0A&s=09" target="_blank"><i className="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/gavaolo/?hl=it" target="_blank"><i className="fab fa-instagram fa-2x"></i></a>      
+            <a id="profile-link" href="https://github.com/RokuoGun" target="_blank"><i className="fab fa-github fa-2x"></i></a>
         </footer>
     )
 }
