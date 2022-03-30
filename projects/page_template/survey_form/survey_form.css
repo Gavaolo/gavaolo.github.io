@@ -10,6 +10,7 @@
   --dark-shadow: 0px 0px 10px 5px rgba(200,200,200,1);
   --soft-radius: 30px;
   --hard-radius: 10px;
+  --filter-hover: brightness(80%);
 }
 
 * {
@@ -18,7 +19,7 @@
   padding: 0;
   box-sizing: border-box;
   border: none;
-  transition: all 100ms;
+  transition: all 200ms;
 }
 
 body {
@@ -114,7 +115,6 @@ form {
 #submit {
   width: 100%;
   border-radius: var(--soft-radius);
-  box-shadow: var(--soft-shadow);
   padding: 0.5rem;
   background-color: var(--main-col);
   color: var(--white);
@@ -122,14 +122,7 @@ form {
 }
 
 #submit:hover {
-  background-color: var(--white);
-  color: var(--black);
-}
-
-#submit:active {
-  background-color: var(--grey);
-  color: var(--black);
-  box-shadow: none;
+  filter: var(--filter-hover);
 }
 
 .form-description {
