@@ -1,5 +1,4 @@
 # RokuoGun's Projects
-+ Portfolio: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/blob/main/index.html) - [[App]](https://rokuogun.github.io)
 
 ## Games: 
 + Breakout: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/breakout) - [[App]](https://rokuogun.github.io/projects/games/breakout/breakout.html)
@@ -12,6 +11,7 @@
 + Space Invaders: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/space_invaders) - [[App]](https://rokuogun.github.io/projects/games/space_invaders/space_invaders.html)
 
 ## Page Template:
++ Portfolio: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/blob/main/index.html) - [[App]](https://rokuogun.github.io)
 + Product Landing Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/product_landing_page) - [[App]](https://rokuogun.github.io/projects/page_template/product_landing_page/product_landing_page.html)
 + Random Quote Machine: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/random_quote_machine) - [[App]](https://rokuogun.github.io/projects/page_template/random_quote_machine/random_quote_machine.html)
 + Survey Form: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/survey_form) - [[App]](https://rokuogun.github.io/projects/page_template/survey_form/survey_form.html)
