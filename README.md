@@ -17,7 +17,6 @@
 + Survey Form: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/survey_form) - [[App]](https://rokuogun.github.io/projects/page_template/survey_form/survey_form.html)
 + Technical Documentation Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/tech_doc_page) - [[App]](https://rokuogun.github.io/projects/page_template/tech_doc_page/tech_doc_page.html)
 + Tribute Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/tribute_page) - [[App]](https://rokuogun.github.io/projects/page_template/tribute_page/tribute_page.html)
-+ React Fun Facts Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/react_facts) - [[App]](https://rokuogun.github.io/projects/page_template/react_facts/react_facts.html)
 + Digital Business Card: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/digital_business_card) - [[App]](https://rokuogun.github.io/projects/page_template/digital_business_card/digital_business_card.html)
 
 ## Tools:
