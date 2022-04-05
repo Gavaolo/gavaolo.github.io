@@ -9,6 +9,8 @@
 //     )
 // }
 
+import Header from "https://github.com/RokuoGun/rokuogun.github.io/blob/main/projects/page_template/digital_business_card/Header.js"
+
 function Nav() {
     return (
         <nav>
