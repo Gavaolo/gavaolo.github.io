@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #F55A5A;
+    height: 55px;
+    color: white;
+    font-family: 'Inter';
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
