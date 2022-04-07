@@ -2,14 +2,53 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter';
 }
 
 nav {
     background-color: #F55A5A;
     height: 55px;
     color: white;
-    font-family: 'Inter';
     justify-content: center;
     display: flex;
     align-items: center;
+}
+
+hr {
+    border: #F5F5F5 1px solid;
+    margin: 20px 0px;
+}
+
+.travel-info {
+    display: flex;
+    align-items: center;
+}
+
+.travel-image {
+    height: 170px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.gps-loc {
+    color: #F55A5A;
+}
+
+.travel-location > a {
+    color: #918E9B;
+    margin-left: 5px;
+}
+
+.travel-title{
+    margin-top: 5px;
+}
+
+.travel-date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.travel-description {
+    color: #2B283A;
+    margin-top: 5px;
 }
