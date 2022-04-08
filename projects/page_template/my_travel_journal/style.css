@@ -14,6 +14,10 @@ nav {
     align-items: center;
 }
 
+.travels {
+    padding: 30px;
+}
+
 hr {
     border: #F5F5F5 1px solid;
     margin: 20px 0px;
