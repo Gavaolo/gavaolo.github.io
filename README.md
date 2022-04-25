@@ -13,7 +13,6 @@
 
 ## Page Template:
 + Portfolio: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/blob/main/index.html) - [[App]](https://rokuogun.github.io)
-
 + Airbnb Experiences: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/airbnb_experiences) - [[App]](https://rokuogun.github.io/projects/page_template/airbnb_experiences/index.html)
 + Digital Business Card: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/digital_business_card) - [[App]](https://rokuogun.github.io/projects/page_template/digital_business_card/index.html)
 + Meme Generator: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/meme_generator) - [[App]](https://rokuogun.github.io/projects/page_template/meme_generator/index.html)
