@@ -147,7 +147,7 @@ function Die(props) {
 function App() {
 
     const [dice, setDice] = React.useState(allNewDice())
-    const [tenzies, setTenzies] = React.useState(true)
+    const [tenzies, setTenzies] = React.useState(false)
     
     React.useEffect(() => {
         const allHeld = dice.every(die => die.isHeld)
