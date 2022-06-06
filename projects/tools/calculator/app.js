@@ -17,13 +17,7 @@ const isOperator = /[x/+‑]/,
   endsWithOperator = /[x+‑/]$/,
   endsWithNegativeSign = /\d[x/+‑]{1}‑$/,
   clearStyle = { background: '#ac3939' },
-  operatorStyle = { background: '#666666' },
-  equalsStyle = {
-    background: '#004466',
-    position: 'absolute',
-    height: 130,
-    bottom: 5
-  };
+  operatorStyle = { background: '#666666' };
 
 // COMPONENTS:
 class Calculator extends React.Component {
@@ -196,8 +190,8 @@ class Calculator extends React.Component {
         <div className="author">
           {' '}
           Designed and Coded By <br />
-          <a href="https://goo.gl/6NNLMG" target="_blank">
-            Peter Weinberg
+          <a href="https://github.com/RokuoGun?tab=repositories" target="_blank">
+            RokuoGun
           </a>
         </div>
       </div>
@@ -208,7 +202,7 @@ class Calculator extends React.Component {
 class Buttons extends React.Component {
   render() {
     return (
-      <div>
+      <div className="buttons">
         <button
           className="jumbo"
           id="clear"
@@ -291,7 +285,6 @@ class Buttons extends React.Component {
         <button
           id="equals"
           onClick={this.props.evaluate}
-          style={equalsStyle}
           value="="
         >
           =

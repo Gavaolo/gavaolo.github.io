@@ -1,9 +1,25 @@
-@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
-@font-face {
-	font-family: 'Digital';
-	src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
-	src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix') format('embedded-opentype'), url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2') format('woff2'), url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff') format('woff'), url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf') format('truetype'), url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7') format('svg');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+    --black: rgba(0,0,0,1);
+    --grey: rgb(40, 50, 60);
+    --soft-white: rgba(248,248,248,1);
+    --white: rgba(255,255,255,1);
+    --main-col: rgba(0,100,130,1);
+    --soft-shadow: 0px 0px 10px 5px rgba(230,230,230,1);
+    --dark-shadow: 0px 0px 15px 10px rgba(200,200,200,1);
+    --soft-radius: 30px;
+    --hard-radius: 20px;
+    --filter-hover: brightness(200%);
+    --filter-active: brightness(60%);
 }
+
+* {
+    transition: all 200ms;
+    font-family: Poppins , sans-serif;
+	margin: 0;
+	padding: 0;
+  }
 
 #app {
 	height: 100vh;
@@ -13,7 +29,7 @@
 }
 
 body {
-	background: #c2c2d6;
+	background: var(--soft-white);
 	-webkit-touch-callout: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -23,16 +39,16 @@ body {
 }
 
 .calculator {
-	border: 2px solid #47476b;
-	padding: 5px;
-	background: black;
-	width: 320px;
+	box-shadow: var(--soft-shadow);
+	border-radius: var(--hard-radius);
+	padding: 10px;
+	background: var(--white);
+	width: 336px;
 	position: relative;
 }
 
 .formulaScreen {
 	min-height: 20px;
-	font-family: digital;
 	font-size: 20px;
 	color: orange;
 	text-align: right;
@@ -40,47 +56,61 @@ body {
 	line-height: 20px;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
+	padding: 10px;
 }
 
 .outputScreen {
 	font-size: 29px;
-	font-family: digital;
-	color: white;
+	color: var(--black);
 	text-align: right;
 	line-height: 35px;
+	padding: 10px;
+	font-weight: bold;
 }
 
 button {
 	position: relative;
-	height: 65px;
+	height: 80px;
 	width: 80px;
-	color: white;
-	outline: 1px solid black;
-	border: none;
-	background: #4d4d4d;
-	font-family: Share Tech Mono, monospace;
+	color: var(--white);
+	border-radius: var(--soft-radius);
+	background: var(--grey);
 	font-size: 20px;
 	cursor: default;
+	margin: 2px;
 }
 
 button:hover {
-	color: black;
-	outline: 0.05em solid grey;
+	color: var(--black);
 	z-index: 3;
+	border-radius: var(--hard-radius);
+	filter: var(--filter-hover);
+}
+
+button:active {
+	filter: var(--filter-active);
 }
 
 .jumbo {
-	width: 160px;
+	width: 162px;
+	border-radius: var(--soft-radius);
 }
 
 .author {
 	text-align: center;
-	font-family: Share Tech Mono, sans;
 	margin-top: 15px;
 }
 
 .author a {
 	text-decoration: none;
-	color: #00264d;
+	color: var(--main-col);
 	line-height: 26px;
+}
+
+#equals {
+	background-color: var(--main-col);
+	height: 164px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 }
