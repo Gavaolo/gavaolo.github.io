@@ -128,7 +128,7 @@ const activeStyle = {
 };
 
 const inactiveStyle = {
-  backgroundColor: 'grey',
+  //backgroundColor: 'grey',
   marginTop: 10,
   boxShadow: '3px 3px 5px black'
 };
@@ -141,7 +141,7 @@ class DrumPad extends React.Component {
     };
     this.playSound = this.playSound.bind(this);
     this.handleKeyPress = this.handleKeyPress.bind(this);
-    this.activatePad = this.activatePad.bind(this);
+   // this.activatePad = this.activatePad.bind(this);
   }
   componentDidMount() {
     document.addEventListener('keydown', this.handleKeyPress);
@@ -154,37 +154,37 @@ class DrumPad extends React.Component {
       this.playSound();
     }
   }
-  activatePad() {
-    if (this.props.power) {
-      if (this.state.padStyle.backgroundColor === 'orange') {
-        this.setState({
-          padStyle: inactiveStyle
-        });
-      } else {
-        this.setState({
-          padStyle: activeStyle
-        });
-      }
-    } else if (this.state.padStyle.marginTop === 13) {
-      this.setState({
-        padStyle: inactiveStyle
-      });
-    } else {
-      this.setState({
-        padStyle: {
-          height: 77,
-          marginTop: 13,
-          backgroundColor: 'grey',
-          boxShadow: '0 3px grey'
-        }
-      });
-    }
-  }
+  // activatePad() {
+  //   if (this.props.power) {
+  //     if (this.state.padStyle.backgroundColor === 'orange') {
+  //       this.setState({
+  //         padStyle: inactiveStyle
+  //       });
+  //     } else {
+  //       this.setState({
+  //         padStyle: activeStyle
+  //       });
+  //     }
+  //   } else if (this.state.padStyle.marginTop === 13) {
+  //     this.setState({
+  //       padStyle: inactiveStyle
+  //     });
+  //   } else {
+  //     this.setState({
+  //       padStyle: {
+  //         height: 77,
+  //         marginTop: 13,
+  //         backgroundColor: 'grey',
+  //         boxShadow: '0 3px grey'
+  //       }
+  //     });
+  //   }
+  // }
   playSound() {
     const sound = document.getElementById(this.props.keyTrigger);
     sound.currentTime = 0;
     sound.play();
-    this.activatePad();
+    //this.activatePad();
     setTimeout(() => this.activatePad(), 100);
     this.props.updateDisplay(this.props.clipId.replace(/-/g, ' '));
   }
@@ -336,7 +336,7 @@ class App extends React.Component {
         />
 
         <div className='logo'>
-          <div className='inner-logo '>{'FCC' + String.fromCharCode(160)}</div>
+          <div className='inner-logo '>{'RokuoGun' + String.fromCharCode(160)}</div>
           <i className='inner-logo fa fa-free-code-camp' />
         </div>
 

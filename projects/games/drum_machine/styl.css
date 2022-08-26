@@ -1,11 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Russo+One');
-body {
-	font-family: Russo One;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+    --black: rgba(0,0,0,1);
+    --grey: rgb(80, 90, 100);
+    --soft-white: rgba(248,248,248,1);
+    --white: rgba(255,255,255,1);
+    --main-col: rgb(20, 160, 210);
+    --btn-col: rgb(10, 80, 105);
+    --soft-shadow: 0px 0px 10px 5px rgba(230,230,230,1);
+    --dark-shadow: 0px 0px 15px 10px rgba(200,200,200,1);
+    --soft-radius: 30px;
+    --hard-radius: 20px;
+    --filter-hover: brightness(160%);
+    --filter-active: brightness(200%);
+}
+
+* {
+    transition: all 200ms;
+    font-family: Poppins , sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 body {
 	user-select: none;
-	background-color: #8d8d8d;
+	background-color: var(--soft-white);
 }
 
 #root {
@@ -16,18 +35,20 @@ body {
 }
 
 .inner-container {
-	outline: 5px solid orange;
+	outline: 5px solid var(--main-col);
 	position: relative;
-	width: 660px;
+	width: 690px;
 	text-align: center;
-	background-color: #b3b3b3;
+	background-color: var(--white);
+	border-radius: var(--soft-radius);
+	box-shadow: var(--dark-shadow);
 }
 
 .inner-container .pad-bank {
 	width: 332px;
 	height: 272px;
 	display: inline-block;
-	margin: 20px;
+	margin: 30px;
 }
 
 .inner-container .pad-bank .drum-pad {
@@ -36,10 +57,23 @@ body {
 	width: 100px;
 	height: 80px;
 	margin-right: 10px;
-	border-radius: 5px;
-	padding-top: 35px;
+	border-radius: var(--soft-radius);
+	background-color: var(--btn-col);
+	color: var(--white);
 	box-sizing: border-box;
 	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inner-container .pad-bank .drum-pad:hover {
+	border-radius: var(--hard-radius);
+	filter: var(--filter-hover);
+}
+
+.inner-container .pad-bank .drum-pad:active {
+	filter: var(--filter-active);
 }
 
 .inner-container .logo {
@@ -74,10 +108,12 @@ body {
 
 .inner-container .controls-container #display {
 	width: 200px;
-	background-color: gray;
+	background-color: var(--grey);
+	color: var(--white);
 	margin: 15px auto;
 	padding: 15px;
 	box-sizing: border-box;
+	border-radius: var(--hard-radius);
 }
 
 .outer-select, .inner-container .controls-container .control .select {
@@ -87,15 +123,17 @@ body {
 	height: 20px;
 	padding: 1px;
 	background-color: black;
+	border-radius: var(--hard-radius);
 }
 
 .inner-select, .inner-container .controls-container .control .select .inner {
 	width: 23px;
 	height: 19px;
-	background: blue;
-	border: 1px solid black;
+	background: var(--main-col);
+	border: 1px solid var(--black);
 	box-sizing: border-box;
 	cursor: pointer;
+	border-radius: var(--hard-radius);
 }
 
 @media screen and (max-width: 650px) {
@@ -130,8 +168,8 @@ body {
 	border: 0 solid #fff;
 	height: 25px;
 	width: 8px;
-	border-radius: 0;
-	background: blue;
+	border-radius: var(--soft-radius);
+	background: var(--main-col);
 	cursor: pointer;
 	-webkit-appearance: none;
 	margin-top: -11px;
