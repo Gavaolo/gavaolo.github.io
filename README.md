@@ -1,5 +1,6 @@
 # RokuoGun's Projects
 
+
 ## Games: 
 + Breakout: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/breakout) - [[App]](https://rokuogun.github.io/projects/games/breakout/index.html)
 + Connect Four: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/connect_four) - [[App]](https://rokuogun.github.io/projects/games/connect_four/index.html)
@@ -10,6 +11,7 @@
 + Space Invaders: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/space_invaders) - [[App]](https://rokuogun.github.io/projects/games/space_invaders/index.html)
 + Tenzies: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/tenzies) - [[App]](https://rokuogun.github.io/projects/games/tenzies/index.html)
 + Wac-A-Mole: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/games/wac-a-mole) - [[App]](https://rokuogun.github.io/projects/games/wac-a-mole/index.html)
+
 
 ## Page Template:
 + Portfolio: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/blob/main/index.html) - [[App]](https://rokuogun.github.io)
@@ -23,6 +25,11 @@
 + Survey Form: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/survey_form) - [[App]](https://rokuogun.github.io/projects/page_template/survey_form/index.html)
 + Technical Documentation Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/tech_doc_page) - [[App]](https://rokuogun.github.io/projects/page_template/tech_doc_page/index.html)
 + Tribute Page: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/tribute_page) - [[App]](https://rokuogun.github.io/projects/page_template/tribute_page/index.html)
++ GDP Bar Chart: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/bar_chart) - [[App]](https://rokuogun.github.io/projects/page_template/bar_chart/index.html)
++ Choropleth Map: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/choropleth_map) - [[App]](https://rokuogun.github.io/projects/page_template/choropleth_map/index.html)
++ Heat Map: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/heat_map) - [[App]](https://rokuogun.github.io/projects/page_template/heat_map/index.html)
++ Scatter Plot: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/scatter_plot) - [[App]](https://rokuogun.github.io/projects/page_template/scatter_plot/index.html)
++ Treemap Diagram: [[Code]](https://github.com/RokuoGun/rokuogun.github.io/tree/main/projects/page_template/treemap_diagram) - [[App]](https://rokuogun.github.io/projects/page_template/treemap_diagram/index.html)
 
 
 ## Tools:
