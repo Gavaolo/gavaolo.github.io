@@ -1,18 +1,6 @@
 # Gavaolo's Projects
 
 
-## Games: 
-+ Breakout: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/breakout) - [[App]](https://gavaolo.github.io/projects/games/breakout/index.html)
-+ Connect Four: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/connect_four) - [[App]](https://gavaolo.github.io/projects/games/connect_four/index.html)
-+ Drum Machine: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/drum_machine) - [[App]](https://gavaolo.github.io/projects/games/drum_machine/index.html)
-+ Frogger: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/frogger) - [[App]](https://gavaolo.github.io/projects/games/frogger/index.html)
-+ Memory: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/memory) - [[App]](https://gavaolo.github.io/projects/games/memory/index.html)
-+ Rock-Paper-Scissors: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/rock-paper-scissors) - [[App]](https://gavaolo.github.io/projects/games/rock-paper-scissors/index.html)
-+ Space Invaders: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/space_invaders) - [[App]](https://gavaolo.github.io/projects/games/space_invaders/index.html)
-+ Tenzies: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/tenzies) - [[App]](https://gavaolo.github.io/projects/games/tenzies/index.html)
-+ Wac-A-Mole: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/wac-a-mole) - [[App]](https://gavaolo.github.io/projects/games/wac-a-mole/index.html)
-
-
 ## Page Template:
 + Portfolio: [[Code]](https://github.com/gavaolo/gavaolo.github.io/blob/main/index.html) - [[App]](https://gavaolo.github.io)
 + Airbnb Experiences: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/page_template/airbnb_experiences) - [[App]](https://gavaolo.github.io/projects/page_template/airbnb_experiences/index.html)
@@ -30,6 +18,18 @@
 + Heat Map: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/page_template/heat_map) - [[App]](https://gavaolo.github.io/projects/page_template/heat_map/index.html)
 + Scatter Plot: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/page_template/scatter_plot) - [[App]](https://gavaolo.github.io/projects/page_template/scatter_plot/index.html)
 + Treemap Diagram: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/page_template/treemap_diagram) - [[App]](https://gavaolo.github.io/projects/page_template/treemap_diagram/index.html)
+
+
+## Games: 
++ Breakout: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/breakout) - [[App]](https://gavaolo.github.io/projects/games/breakout/index.html)
++ Connect Four: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/connect_four) - [[App]](https://gavaolo.github.io/projects/games/connect_four/index.html)
++ Drum Machine: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/drum_machine) - [[App]](https://gavaolo.github.io/projects/games/drum_machine/index.html)
++ Frogger: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/frogger) - [[App]](https://gavaolo.github.io/projects/games/frogger/index.html)
++ Memory: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/memory) - [[App]](https://gavaolo.github.io/projects/games/memory/index.html)
++ Rock-Paper-Scissors: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/rock-paper-scissors) - [[App]](https://gavaolo.github.io/projects/games/rock-paper-scissors/index.html)
++ Space Invaders: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/space_invaders) - [[App]](https://gavaolo.github.io/projects/games/space_invaders/index.html)
++ Tenzies: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/tenzies) - [[App]](https://gavaolo.github.io/projects/games/tenzies/index.html)
++ Wac-A-Mole: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/games/wac-a-mole) - [[App]](https://gavaolo.github.io/projects/games/wac-a-mole/index.html)
 
 
 ## Tools:
