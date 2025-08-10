@@ -2,7 +2,7 @@
 
 
 ## Page Template:
-+ Portfolio: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/portfolio/index.html) - [[App]](https://gavaolo.github.io/tree/main/projects/web_projects/portfolio)
++ Portfolio: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/portfolio) - [[App]](https://gavaolo.github.io/tree/main/projects/web_projects/page_template/portfolio/index.html)
 + Airbnb Experiences: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/airbnb_experiences) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/airbnb_experiences/index.html)
 + Digital Business Card: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/digital_business_card) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/digital_business_card/index.html)
 + Meme Generator: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/meme_generator) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/meme_generator/index.html)
