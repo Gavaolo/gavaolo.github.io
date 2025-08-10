@@ -56,6 +56,6 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 - Schneider PacDrive3 - Packaging Machines Solutions
 Omron NJ – NX
 
-## Progetti
-- [Web](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects)
-
+## Risorse
+- [Progetti Web](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects)
+- [Portfolio](https://gavaolo.github.io)
