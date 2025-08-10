@@ -8,7 +8,7 @@ Data di nascita: 09/11/1997
 ### Contatti
 |Telefono|Email|Altro   |
 |--------|-----|--------|
-|+39 3488123472|gavassopaolo@gmail.com|[Linkedin](www.linkedin.com/in/paolo-gavasso-85a534192)<br>[GitHub](https://gavaolo.github.io)
+|+39 3488123472|gavassopaolo@gmail.com|[Linkedin](https://www.linkedin.com/in/paolo-gavasso-85a534192)<br>[GitHub](https://gavaolo.github.io)
 
 ## Esperienze professionali
 **Sviluppatore di software**  
