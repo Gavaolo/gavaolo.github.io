@@ -4,12 +4,11 @@
 ## Profilo
 Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
-Data di nascita: 09/11/1997 
-
-### Contatti
-|Telefono|Email|Altro   |
-|--------|-----|--------|
-|+39 3488123472|gavassopaolo@gmail.com|[Linkedin](https://www.linkedin.com/in/paolo-gavasso-85a534192)<br>[GitHub](https://gavaolo.github.io)
+- Data di nascita: 09/11/1997 
+- Telefono: +39 3488123472
+- Email: gavassopaolo@gmail.com
+- Linkedin: https://www.linkedin.com/in/paolo-gavasso-85a534192
+- GitHub: https://gavaolo.github.io
 
 ## Esperienze professionali
 **Sviluppatore di software**  
@@ -32,7 +31,7 @@ Alimec s.r.l, Via Corte 1, 36030 Valli del Pasubio (Italia)
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
 ## Istruzione
-**Istituto tecnico tecnologico statale "Silvio De Pretto", Schio (Italia)**  
+### Istituto tecnico tecnologico statale "Silvio De Pretto", Schio (Italia)  
 2016  
 Diploma di istituto tecnico settore tecnologico - Indirizzo "Elettronica 
 ed elettrotecnica" - Articolazione "Elettrotecnica"
@@ -45,7 +44,7 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 - Buona padronanza degli ambienti di sviluppo PLC Omron, Siemens, Sew e Allen-Bradley.
 - Buona padronanza dei sistemi di configurazione rete industria 4.0 (rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale)
 - Buona padronanza degli ambienti di sviluppo e programmazione robot KUKA.
-- Padronanza base dei linguaggi HTML, CSS, JavaScript, Python.
+- Padronanza base dei linguaggi HTML, CSS, JavaScript, Python, Markdown e Git.
 
 ## Lingue
 - Inglese | Livello avanzato
@@ -59,4 +58,3 @@ Omron NJ – NX
 
 ## Risorse
 - [Progetti Web](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects)
-- [Portfolio](https://gavaolo.github.io)
