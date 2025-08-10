@@ -1,5 +1,6 @@
 # Paolo Gavasso
 
+
 ## Profilo
 Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
