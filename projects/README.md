@@ -21,7 +21,7 @@
 
 
 ## Games: 
-+ Breakout: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/games/breakout) - [[App]](https://gavaolo.github.io/projects/web_projects/games/breakout/index.html)
++ Breakout: [[Code]](https://gavaolo.github.io/projects/web_projects/games/breakout) - [[App]](https://gavaolo.github.io/projects/web_projects/games/breakout/index.html)
 + Connect Four: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/games/connect_four) - [[App]](https://gavaolo.github.io/projects/web_projects/games/connect_four/index.html)
 + Drum Machine: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/games/drum_machine) - [[App]](https://gavaolo.github.io/projects/web_projects/games/drum_machine/index.html)
 + Frogger: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/games/frogger) - [[App]](https://gavaolo.github.io/projects/web_projects/games/frogger/index.html)
