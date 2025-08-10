@@ -3,12 +3,12 @@
 ## Profilo
 Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
-Data di nascita: 09/11/1997
+Data di nascita: 09/11/1997 
 
 ### Contatti
 |Telefono|Email|Altro   |
 |--------|-----|--------|
-|+39 3488123472|gavassopaolo#gmail.com|[Linkedin](www.linkedin.com/in/paolo-gavasso-85a534192)<br>[GitHub]|(https://gavaolo.github.io)
+|+39 3488123472|gavassopaolo@gmail.com|[Linkedin](www.linkedin.com/in/paolo-gavasso-85a534192)<br>[GitHub](https://gavaolo.github.io)
 
 ## Esperienze professionali
 **Sviluppatore di software**  
@@ -20,8 +20,6 @@ Lafer Packaging s.r.l, Via Lago di Garda 104, 36015 Schio (Italia)
 - Sviluppo software, programmazione e installazione robot KUKA.
 - Assistenza clienti e manutenzione macchine post vendita.
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
-
----
 
 **Sviluppatore di software**  
 Alimec s.r.l, Via Corte 1, 36030 Valli del Pasubio (Italia)
