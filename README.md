@@ -1,19 +1,20 @@
 <img style="float:right;border-radius:50%;width:70px;padding:6px" src="profilo.png" />
 
 <span style="float:right;padding:6px"> 
-  gavassopaolo@gmail.com <br> mobile: +39 3488123472 <br> Nationality: Italy
+    Data di nascita: 09/11/1997 <br>
+    Email: gavassopaolo@gmail.com <br> 
+    Mobile: +39 3488123472 <br> 
 </span>
+
+<br><br>
 
 # Paolo Gavasso
 
 ## Profilo
 Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
-- Data di nascita | 09/11/1997 
-- Telefono | +39 3488123472
-- Email | gavassopaolo@gmail.com
-- Linkedin | [https://www.linkedin.com/in/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
-- GitHub | [https://gavaolo.github.io](https://gavaolo.github.io)
+- Linkedin: [https://www.linkedin.com/in/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
+- GitHub: [https://gavaolo.github.io](https://gavaolo.github.io)
 
 ## Esperienze professionali
 **Sviluppatore di software**  
@@ -52,14 +53,14 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 - Padronanza base dei linguaggi HTML, CSS, JavaScript, Python, Markdown e Git.
 
 ## Lingue
-- Inglese | Livello avanzato
+- Inglese: 🔵🔵🔵🔵🔵
 
 ## Certificati e corsi
 - FreeCodeCamp - Front end, HTML-CSS, Javascript
 - Saylor Academy - CS105 - Introduction to Python
 - KUKA college - Programmazione 1, 2
 - Schneider PacDrive3 - Packaging Machines Solutions
-Omron NJ – NX
+- Omron NJ – NX
 
 ## Risorse
 - [Progetti Web](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects)
