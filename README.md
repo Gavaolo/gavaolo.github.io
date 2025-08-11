@@ -27,7 +27,7 @@ Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
 #### Alimec s.r.l, Via Corte 1, 36030 Valli del Pasubio (Italia)
-2025 – In corso
+2025 - In corso
 - Sviluppo di software PLC per macchine per industria alimentare: Siemens, Sew, Allen-Bradley.
 - Sviluppo di codice e configurazione reti macchina, router e aziendale per industria 4.0.
 - Sviluppo di interfacce HMI per macchine per industria alimentare: Siemens, Allen-Bradley.
@@ -36,7 +36,7 @@ Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-
 
 ## 📚 Istruzione
 #### Istituto tecnico tecnologico statale "Silvio De Pretto", Schio (Italia)  
-2016  
+2012 - 2016  
 Diploma di istituto tecnico settore tecnologico - Indirizzo "Elettronica 
 ed elettrotecnica" - Articolazione "Elettrotecnica"
 
