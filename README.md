@@ -1,12 +1,19 @@
+<img style="float:right;border-radius:50%;width:70px;padding:6px" src="profilo.png" />
+
+<span style="float:right;padding:6px"> 
+  gavassopaolo@gmail.com <br> mobile: +39 3488123472 <br> Nationality: Italy
+</span>
+
 # Paolo Gavasso
+
 ## Profilo
 Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
-- Data di nascita   | 09/11/1997 
-- Telefono          | +39 3488123472
-- Email             | gavassopaolo@gmail.com
-- Linkedin          | [https://www.linkedin.com/in/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
-- GitHub            | [https://gavaolo.github.io](https://gavaolo.github.io)
+- Data di nascita | 09/11/1997 
+- Telefono | +39 3488123472
+- Email | gavassopaolo@gmail.com
+- Linkedin | [https://www.linkedin.com/in/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
+- GitHub | [https://gavaolo.github.io](https://gavaolo.github.io)
 
 ## Esperienze professionali
 **Sviluppatore di software**  
