@@ -6,18 +6,15 @@
     Mobile: +39 3488123472 <br> 
 </span>
 
-<br><br>
+<br>
 
 # Paolo Gavasso
-
-## Profilo
 Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
 - Linkedin: [https://www.linkedin.com/in/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
 - GitHub: [https://gavaolo.github.io](https://gavaolo.github.io)
 
 ## Esperienze professionali
-**Sviluppatore di software**  
 Lafer Packaging s.r.l, Via Lago di Garda 104, 36015 Schio (Italia)
 2016 - 2025
 - Sviluppo di software PLC per macchine confezionatrici e linee di distribuzione: Schneider, Omron, Allen-Bradley.
@@ -27,7 +24,6 @@ Lafer Packaging s.r.l, Via Lago di Garda 104, 36015 Schio (Italia)
 - Assistenza clienti e manutenzione macchine post vendita.
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
-**Sviluppatore di software**  
 Alimec s.r.l, Via Corte 1, 36030 Valli del Pasubio (Italia)
 2025 – In corso
 - Sviluppo di software PLC per macchine per industria alimentare: Siemens, Sew, Allen-Bradley.
@@ -43,9 +39,9 @@ Diploma di istituto tecnico settore tecnologico - Indirizzo "Elettronica
 ed elettrotecnica" - Articolazione "Elettrotecnica"
 
 ## Principali competenze e caratteristiche
-- Buona padronanza della suite Microsoft Office
-- Buona padronanza dei software di fotoritocco acquisita grazie allo sviluppo di interfacce grafiche operatore HMI.
-- Ottima padronanza degli ambienti di sviluppo software PLC Schneider.
+- Suite Microsoft Office. 🔵🔵🔵⚪⚪
+- Software di fotoritocco. 🔵🔵🔵⚪⚪
+- Ambienti di sviluppo software PLC Schneider. 🔵🔵🔵🔵⚪
 - Buona padronanza degli ambienti di sviluppo HMI Exor, Schneider, Siemens, Allen-Bradley e Omron.
 - Buona padronanza degli ambienti di sviluppo PLC Omron, Siemens, Sew e Allen-Bradley.
 - Buona padronanza dei sistemi di configurazione rete industria 4.0 (rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale)
