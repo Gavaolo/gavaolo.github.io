@@ -5,8 +5,8 @@ Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-
 - Data di nascita | 09/11/1997 
 - Telefono | +39 3488123472
 - Email | gavassopaolo@gmail.com
-- Linkedin | https |//www.linkedin.com/in/paolo-gavasso-85a534192
-- GitHub | https://gavaolo.github.io
+- Linkedin | [https://www.linkedin.com/in/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
+- GitHub | [https://gavaolo.github.io](https://gavaolo.github.io)
 
 ## Esperienze professionali
 **Sviluppatore di software**  
