@@ -1,12 +1,8 @@
-<img style="float:right;border-radius:50%;width:70px;padding:6px" src="profilo.png" />
+<img style="float:right;border-radius:50%;width:100px;padding-left:10px" src="profilo.png" />
 
-<span style="float:right;padding:6px"> 
     09/11/1997 <br>
     gavassopaolo@gmail.com <br> 
     +39 3488123472 <br> 
-</span>
-
-<br><br><br>
 
 # Paolo Gavasso
 Sviluppatore software con esperienza nel settore packaging e alimentare nella programmazione di Plc, Hmi e Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
