@@ -7,7 +7,7 @@ Mobile: +39 3488123472
 
 Sviluppatore software con esperienza nel settore packaging e alimentare nella programmazione di Plc, Hmi e Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
-- [github.com/Gavaolo](https://github.com/Gavaolo/gavaolo.github.io)
+- [github.com/Gavaolo](https://github.com/Gavaolo)
 - [linkedin.com/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
 - [instagram.com/gavaolo](https://www.instagram.com/gavaolo/?hl=it)
 - [facebook.com/paolo.gavasso](https://www.facebook.com/paolo.gavasso)
