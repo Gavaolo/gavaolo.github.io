@@ -6,7 +6,7 @@
     Mobile: +39 3488123472 <br> 
 </span>
 
-<br><br>
+<br><br><br>
 
 # Paolo Gavasso
 Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
@@ -16,7 +16,7 @@ Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-
 - Instagram: [https://www.instagram.com/gavaolo/?hl=it](https://www.instagram.com/gavaolo/?hl=it)
 - Facebook: [https://www.facebook.com/paolo.gavasso](https://www.facebook.com/paolo.gavasso)
 
-## ⚒️ Esperienze professionali
+## ⚒️ Esperienze
 #### Lafer Packaging s.r.l, Via Lago di Garda 104, 36015 Schio (Italia)
 2016 - 2025
 - Sviluppo di software PLC per macchine confezionatrici e linee di distribuzione: Schneider, Omron, Allen-Bradley.
@@ -40,7 +40,7 @@ Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-
 Diploma di istituto tecnico settore tecnologico - Indirizzo "Elettronica 
 ed elettrotecnica" - Articolazione "Elettrotecnica"
 
-## 🖋️ Competenze e caratteristiche
+## 🖋️ Competenze
 - Suite Microsoft Office. 🔵🔵🔵⚪⚪
 - Software di fotoritocco. 🔵🔵🔵⚪⚪
 - Sviluppo software PLC Schneider. 🔵🔵🔵🔵⚪
@@ -51,7 +51,7 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 - Linguaggi HTML, CSS, JavaScript, Python, Markdown e Git. 🔵🔵⚪⚪⚪
 
 ## 💭 Lingue
-- Inglese: 🔵🔵🔵🔵🔵
+- Inglese: 🔵🔵🔵🔵⚪
 
 ## 📜 Certificati e corsi
 - FreeCodeCamp - Front end, HTML-CSS, Javascript
