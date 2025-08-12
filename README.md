@@ -1,6 +1,6 @@
 Il mio repository GitHub pubblico.
 
-## 📜 Resume (Curriculim Vitae)
+## 📜 Resume (Vurriculum vitae)
 - [Resume](https://gavaolo.github.io/resume/resume)
 
 ## 💻 Progetti
