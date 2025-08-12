@@ -11,10 +11,10 @@
 # Paolo Gavasso
 Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
-- GitHub: [github.com/Gavaolo](https://github.com/Gavaolo/gavaolo.github.io)
--  Linkedin: [linkedin.com/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
-- Instagram: [instagram.com/gavaolo](https://www.instagram.com/gavaolo/?hl=it)
-- Facebook <i class="fab fa-facebook-square"></i>: [facebook.com/paolo.gavasso](https://www.facebook.com/paolo.gavasso)
+- [github.com/Gavaolo](https://github.com/Gavaolo/gavaolo.github.io)
+- [linkedin.com/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
+- [instagram.com/gavaolo](https://www.instagram.com/gavaolo/?hl=it)
+- <i class="fab fa-facebook-square"></i>: [facebook.com/paolo.gavasso](https://www.facebook.com/paolo.gavasso)
 
 ## ⚒️ Esperienze
 #### Lafer Packaging s.r.l, Via Lago di Garda 104, 36015 Schio (Italia)
