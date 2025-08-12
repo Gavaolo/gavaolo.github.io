@@ -1,5 +1,5 @@
 # Paolo Gavasso
-<img style="float:right;border-radius:50%;width:150px;padding:10px" src="profilo.png" />
+<img style="float:right;border-radius:50%;width:100px;padding:5px" src="profilo.png" />
 
 Data di nascita: 09/11/1997  
 Email: gavassopaolo@gmail.com  
