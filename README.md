@@ -1,9 +1,9 @@
 <img style="float:right;border-radius:50%;width:70px;padding:6px" src="profilo.png" />
 
 <span style="float:right;padding:6px"> 
-    Data di nascita: 09/11/1997 <br>
-    Email: gavassopaolo@gmail.com <br> 
-    Mobile: +39 3488123472 <br> 
+    09/11/1997 <br>
+    gavassopaolo@gmail.com <br> 
+    +39 3488123472 <br> 
 </span>
 
 <br><br><br>
