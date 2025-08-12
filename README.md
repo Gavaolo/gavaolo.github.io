@@ -57,4 +57,4 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 - Omron NJ – NX
 
 ## 💻 Progetti
-- [Progetti Web](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects)
+- [Progetti Web](https://gavaolo.github.io/projects/web_projects)
