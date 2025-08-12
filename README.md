@@ -14,7 +14,7 @@ Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-
 - [github.com/Gavaolo](https://github.com/Gavaolo/gavaolo.github.io)
 - [linkedin.com/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
 - [instagram.com/gavaolo](https://www.instagram.com/gavaolo/?hl=it)
-- <i class="fab fa-facebook-square"></i>[facebook.com/paolo.gavasso](https://www.facebook.com/paolo.gavasso)
+- [facebook.com/paolo.gavasso](https://www.facebook.com/paolo.gavasso)
 
 ## ⚒️ Esperienze
 #### Lafer Packaging s.r.l, Via Lago di Garda 104, 36015 Schio (Italia)
