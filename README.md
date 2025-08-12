@@ -9,7 +9,7 @@
 <br><br><br>
 
 # Paolo Gavasso
-Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
+Sviluppatore software con esperienza nel settore packaging e alimentare nella programmazione di Plc, Hmi e Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
 - [github.com/Gavaolo](https://github.com/Gavaolo/gavaolo.github.io)
 - [linkedin.com/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
@@ -19,18 +19,18 @@ Sviluppatore software con esperienza nel settore packaging e alimentare PLC-HMI-
 ## ⚒️ Esperienze
 #### Lafer Packaging s.r.l, Via Lago di Garda 104, 36015 Schio (Italia)
 2016 - 2025
-- Sviluppo di software PLC per macchine confezionatrici e linee di distribuzione: Schneider, Omron, Allen-Bradley.
-- Sviluppo di codice e configurazione reti macchina, router e aziendale per industria 4.0.
-- Sviluppo di interfacce HMI per confezionatrici e linee di distribuzione: Schneider, Omron, Exor.
-- Sviluppo software, programmazione e installazione robot KUKA.
+- Sviluppo di software Plc per macchine confezionatrici e linee di distribuzione con elettronica Schneider, Omron e Rockwell.
+- Sviluppo di codice e configurazione reti macchina, router e gateway per industria 4.0.
+- Sviluppo di interfacce Hmi per confezionatrici e linee di distribuzionecon elettronica Schneider, Omron e Exor.
+- Sviluppo software, programmazione e installazione robot Kuka.
 - Assistenza clienti e manutenzione macchine post vendita.
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
 #### Alimec s.r.l, Via Corte 1, 36030 Valli del Pasubio (Italia)
 2025 - In corso
-- Sviluppo di software PLC per macchine per industria alimentare: Siemens, Sew, Allen-Bradley.
-- Sviluppo di codice e configurazione reti macchina, router e aziendale per industria 4.0.
-- Sviluppo di interfacce HMI per macchine per industria alimentare: Siemens, Allen-Bradley.
+- Sviluppo di software Plc per macchine per industria alimentare con elettronica Siemens, Sew e Rockwell.
+- Sviluppo di codice e configurazione reti macchina, router e gateway per industria 4.0.
+- Sviluppo di interfacce Hmi per macchine per industria alimentare con elettronica Siemens e Rockwell.
 - Assistenza clienti e manutenzione macchine post vendita.
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
@@ -43,11 +43,11 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 ## 🖋️ Competenze
 - Suite Microsoft Office. 🔵🔵🔵⚪⚪
 - Software di fotoritocco. 🔵🔵🔵⚪⚪
-- Sviluppo software PLC Schneider. 🔵🔵🔵🔵⚪
-- Sviluppo software HMI Exor, Schneider, Siemens, Allen-Bradley e Omron. 🔵🔵🔵⚪⚪
-- Sviluppo software PLC Omron, Siemens, Sew e Allen-Bradley. 🔵🔵🔵⚪⚪
-- Sistemi di configurazione rete industria 4.0 (rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale) 🔵🔵🔵⚪⚪
-- Sviluppo software e programmazione robot KUKA. 🔵🔵🔵⚪⚪
+- Sviluppo software Plc Schneider. 🔵🔵🔵🔵⚪
+- Sviluppo software Hmi Exor, Schneider, Siemens, Rockwell e Omron. 🔵🔵🔵⚪⚪
+- Sviluppo software Plc Omron, Siemens, Sew e Rockwell. 🔵🔵🔵⚪⚪
+- Sistemi di configurazione rete industria 4.0. Rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale. 🔵🔵🔵⚪⚪
+- Sviluppo software e programmazione robot Kuka. 🔵🔵🔵⚪⚪
 - Linguaggi HTML, CSS, JavaScript, Python, Markdown e Git. 🔵🔵⚪⚪⚪
 
 ## 💭 Lingue
