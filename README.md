@@ -1,9 +1,9 @@
 # Paolo Gavasso
 <img style="float:right;border-radius:50%;width:150px;padding:10px" src="profilo.png" />
 
-    Data di nascita: 09/11/1997
-    Email: gavassopaolo@gmail.com 
-    Mobile: +39 3488123472 
+Data di nascita: 09/11/1997  
+Email: gavassopaolo@gmail.com  
+Mobile: +39 3488123472
 
 Sviluppatore software con esperienza nel settore packaging e alimentare nella programmazione di Plc, Hmi e Robot. Capacità comprovate nella progettazione e implementazione di sistemi automatizzati. Eccellenti competenze di programmazione e risoluzione dei problemi. Appassionato di Bitcoin e delle sue potenzialità di rivoluzionare il mondo della finanza. Credo fermamente nella decentralizzazione e nella libertà economica.
 
