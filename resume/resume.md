@@ -17,9 +17,9 @@ Sviluppatore software con esperienza nel settore packaging e alimentare nella pr
 2016 - 2025
 - Sviluppo di software Plc per macchine confezionatrici e linee di distribuzione con elettronica Schneider, Omron e Rockwell.
 - Sviluppo di codice e configurazione reti macchina, router e gateway per industria 4.0.
-- Sviluppo di interfacce Hmi per confezionatrici e linee di distribuzionecon elettronica Schneider, Omron e Exor.
+- Sviluppo di interfacce Hmi per confezionatrici e linee di distribuzione con elettronica Schneider, Omron e Exor.
 - Sviluppo software, programmazione e installazione robot Kuka.
-- Assistenza clienti e manutenzione macchine post vendita.
+- Assistenza clienti e manutenzione macchine post-vendita.
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
 #### Alimec s.r.l, Via Corte 1, 36030 Valli del Pasubio (Italia)
@@ -27,7 +27,7 @@ Sviluppatore software con esperienza nel settore packaging e alimentare nella pr
 - Sviluppo di software Plc per macchine per industria alimentare con elettronica Siemens, Sew e Rockwell.
 - Sviluppo di codice e configurazione reti macchina, router e gateway per industria 4.0.
 - Sviluppo di interfacce Hmi per macchine per industria alimentare con elettronica Siemens e Rockwell.
-- Assistenza clienti e manutenzione macchine post vendita.
+- Assistenza clienti e manutenzione macchine post-vendita.
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
 ## 📚 Istruzione
