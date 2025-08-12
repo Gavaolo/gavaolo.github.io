@@ -1,24 +1,22 @@
-# My Web Projects
-
+# Web Projects
 
 ## Page Template:
-+ Portfolio: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/portfolio) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/portfolio/index.html)
 + Airbnb Experiences: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/airbnb_experiences) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/airbnb_experiences/index.html)
++ Choropleth Map: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/choropleth_map) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/choropleth_map/index.html)
 + Digital Business Card: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/digital_business_card) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/digital_business_card/index.html)
++ GDP Bar Chart: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/bar_chart) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/bar_chart/index.html)
++ Heat Map: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/heat_map) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/heat_map/index.html)
 + Meme Generator: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/meme_generator) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/meme_generator/index.html)
 + My Travel Journal: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/my_travel_journal) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/my_travel_journal/index.html)
++ Portfolio: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/portfolio) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/portfolio/index.html)
 + Product Landing Page: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/product_landing_page) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/product_landing_page/index.html)
 + Random Quote Machine: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/random_quote_machine) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/random_quote_machine/index.html)
 + React Facts: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/react_facts) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/react_facts/index.html)
++ Scatter Plot: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/scatter_plot) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/scatter_plot/index.html)
 + Survey Form: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/survey_form) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/survey_form/index.html)
 + Technical Documentation Page: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/tech_doc_page) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/tech_doc_page/index.html)
-+ Tribute Page: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/tribute_page) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/tribute_page/index.html)
-+ GDP Bar Chart: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/bar_chart) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/bar_chart/index.html)
-+ Choropleth Map: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/choropleth_map) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/choropleth_map/index.html)
-+ Heat Map: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/heat_map) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/heat_map/index.html)
-+ Scatter Plot: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/scatter_plot) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/scatter_plot/index.html)
 + Treemap Diagram: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/treemap_diagram) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/treemap_diagram/index.html)
-
++ Tribute Page: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/page_template/tribute_page) - [[App]](https://gavaolo.github.io/projects/web_projects/page_template/tribute_page/index.html)
 
 ## Games: 
 + Breakout: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/games/breakout) - [[App]](https://gavaolo.github.io/projects/web_projects/games/breakout/index.html)
@@ -30,7 +28,6 @@
 + Space Invaders: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/games/space_invaders) - [[App]](https://gavaolo.github.io/projects/web_projects/games/space_invaders/index.html)
 + Tenzies: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/games/tenzies) - [[App]](https://gavaolo.github.io/projects/web_projects/games/tenzies/index.html)
 + Wac-A-Mole: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/games/wac-a-mole) - [[App]](https://gavaolo.github.io/projects/web_projects/games/wac-a-mole/index.html)
-
 
 ## Tools:
 + 25+5 Clock: [[Code]](https://github.com/gavaolo/gavaolo.github.io/tree/main/projects/web_projects/tools/25+5_clock) - [[App]](https://gavaolo.github.io/projects/web_projects/tools/25+5_clock/index.html)
