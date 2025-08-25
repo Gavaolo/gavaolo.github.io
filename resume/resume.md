@@ -36,17 +36,17 @@ Diploma di istituto tecnico settore tecnologico - Indirizzo "Elettronica
 ed elettrotecnica" - Articolazione "Elettrotecnica"
 
 ## 🖋️ Competenze
-- Suite Microsoft Office. 🔵🔵🔵⚪⚪
-- Software di fotoritocco. 🔵🔵🔵⚪⚪
-- Sviluppo software Plc Schneider. 🔵🔵🔵🔵⚪
-- Sviluppo software Hmi Exor, Schneider, Siemens, Rockwell e Omron. 🔵🔵🔵⚪⚪
-- Sviluppo software Plc Omron, Siemens, Sew e Rockwell. 🔵🔵🔵⚪⚪
-- Sistemi di configurazione rete industria 4.0. Rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale. 🔵🔵🔵⚪⚪
-- Sviluppo software e programmazione robot Kuka. 🔵🔵🔵⚪⚪
-- Linguaggi HTML, CSS, JavaScript, Python, Markdown e Git. 🔵🔵⚪⚪⚪
+- 🔵🔵🔵⚪⚪ Suite Microsoft Office.
+- 🔵🔵🔵⚪⚪ Software di fotoritocco.
+- 🔵🔵🔵🔵⚪ Sviluppo software Plc Schneider.
+- 🔵🔵🔵⚪⚪ Sviluppo software Hmi Exor, Schneider, Siemens, Rockwell e Omron.
+- 🔵🔵🔵⚪⚪ Sviluppo software Plc Omron, Siemens, Sew e Rockwell.
+- 🔵🔵🔵⚪⚪Sistemi di configurazione rete industria 4.0. Rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale.
+- 🔵🔵🔵⚪⚪ Sviluppo software e programmazione robot Kuka.
+- 🔵🔵⚪⚪⚪ Linguaggi HTML, CSS, JavaScript, Python, Markdown e Git.
 
 ## 💭 Lingue
-- Inglese: 🔵🔵🔵🔵⚪
+- 🔵🔵🔵🔵⚪ Inglese
 
 ## 📜 Certificati e corsi
 - FreeCodeCamp - Front end, HTML-CSS, Javascript
