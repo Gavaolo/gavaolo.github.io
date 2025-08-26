@@ -54,6 +54,3 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 - KUKA college - Programmazione 1, 2
 - Schneider PacDrive3 - Packaging Machines Solutions
 - Omron NJ – NX
-
-## 💻 Progetti
-- [Progetti Web](https://gavaolo.github.io/projects/web_projects)
