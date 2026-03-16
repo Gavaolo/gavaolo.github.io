@@ -9,7 +9,6 @@ Sviluppatore software con esperienza nel settore packaging e alimentare nella pr
 - [github.com/Gavaolo](https://github.com/Gavaolo)
 - [linkedin.com/paolo-gavasso-85a534192](https://www.linkedin.com/in/paolo-gavasso-85a534192)
 - [instagram.com/gavaolo](https://www.instagram.com/gavaolo/?hl=it)
-- [facebook.com/paolo.gavasso](https://www.facebook.com/paolo.gavasso)
 
 ## ⚒️ Esperienze
 #### Lafer Packaging s.r.l, Via Lago di Garda 104, 36015 Schio (Italia)
