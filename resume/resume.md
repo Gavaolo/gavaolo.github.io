@@ -22,11 +22,18 @@ Sviluppatore software con esperienza nel settore packaging e alimentare nella pr
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
 #### Alimec s.r.l, Via Corte 1, 36030 Valli del Pasubio (Italia)
-2025 - In corso
+2025 - 2025
 - Sviluppo di software Plc per macchine per industria alimentare con elettronica Siemens, Sew e Rockwell.
 - Sviluppo di codice e configurazione reti macchina, router e gateway per industria 4.0.
 - Sviluppo di interfacce Hmi per macchine per industria alimentare con elettronica Siemens e Rockwell.
 - Assistenza clienti e manutenzione macchine post-vendita.
+- Esperienza in trasferta in paesi europei ed extraeuropei.
+
+#### Faccin s.r.l, Via Luigi Pettinà 23, 36010 Zanè (Italia)
+2025 - In corso
+- Sviluppo di software Plc per macchine industriale con elettronica Siemens, Sew, Omron e Rockwell.
+- Sviluppo di codice e configurazione reti macchina, router e gateway per industria 4.0.
+- Sviluppo di interfacce Hmi per macchine per industria con elettronica Siemens, Rockwell, FTOptix e PC industriali.
 - Esperienza in trasferta in paesi europei ed extraeuropei. 
 
 ## 📚 Istruzione
@@ -38,10 +45,10 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 ## 🖋️ Competenze
 - 🔵🔵🔵⚪⚪ Suite Microsoft Office.
 - 🔵🔵🔵⚪⚪ Software di fotoritocco.
-- 🔵🔵🔵🔵⚪ Sviluppo software Plc Schneider.
-- 🔵🔵🔵⚪⚪ Sviluppo software Hmi Exor, Schneider, Siemens, Rockwell e Omron.
+- 🔵🔵🔵🔵🔵 Sviluppo software Plc Schneider.
+- 🔵🔵🔵⚪⚪ Sviluppo software Hmi Exor, Schneider, Siemens, Rockwell, FTOptix, Omron e PC industriali.
 - 🔵🔵🔵⚪⚪ Sviluppo software Plc Omron, Siemens, Sew e Rockwell.
-- 🔵🔵🔵⚪⚪Sistemi di configurazione rete industria 4.0. Rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale.
+- 🔵🔵🔵⚪⚪ Sistemi di configurazione rete industria 4.0. Rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale.
 - 🔵🔵🔵⚪⚪ Sviluppo software e programmazione robot Kuka.
 - 🔵🔵⚪⚪⚪ Linguaggi HTML, CSS, JavaScript, Python, Markdown e Git.
 
