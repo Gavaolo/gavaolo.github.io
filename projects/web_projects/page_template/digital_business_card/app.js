@@ -4,7 +4,7 @@ function Header() {
             <img src="./img/profile_photo.jpg" />
             <h1 className="card-name">Paolo Gavasso</h1>
             <p className="job-description">Frontend Developer</p>
-            <small className="web-site"><a href="https://rokuogun.github.io/" target="_blank">ruokuogun.github.io</a></small>
+            <small className="web-site"><a href="https://gavaolo.github.io/" target="_blank">gavaolo.github.io</a></small>
         </header>
     )
 }
@@ -13,7 +13,7 @@ function Nav() {
     return (
         <nav>
             <a href="mailto:gavassopaolo@gmail.com" target="_blank"><i className="fas fa-envelope"></i>Email</a>
-            <a href="https://www.linkedin.com/in/paolo-gavasso-85a534192" target="_blank" className="linkedin-link"><i className="fab fa-linkedin"></i>Linkedin</a>
+            <a href="" target="_blank" className="linkedin-link"><i className="fab fa-linkedin"></i>Linkedin</a>
         </nav>
     )
 }
@@ -32,10 +32,10 @@ function MainContent() {
 function Footer() {
     return (
         <footer>
-            <a href="https://www.facebook.com/paolo.gavasso" target="_blank"><i className="fab fa-facebook-square fa-2x"></i></a>
-            <a href="https://twitter.com/GavassoPaolo?t=8OcKEZgmCzjcR8qPsGja0A&s=09" target="_blank"><i className="fab fa-twitter fa-2x"></i></a>
+            <a href="" target="_blank"><i className="fab fa-facebook-square fa-2x"></i></a>
+            <a href="" target="_blank"><i className="fab fa-twitter fa-2x"></i></a>
             <a href="https://www.instagram.com/gavaolo/?hl=it" target="_blank"><i className="fab fa-instagram fa-2x"></i></a>      
-            <a id="profile-link" href="https://github.com/RokuoGun" target="_blank"><i className="fab fa-github fa-2x"></i></a>
+            <a id="profile-link" href="https://github.com/gavaolo" target="_blank"><i className="fab fa-github fa-2x"></i></a>
         </footer>
     )
 }
