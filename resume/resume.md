@@ -30,10 +30,11 @@ Sviluppatore software con esperienza nel settore packaging e alimentare nella pr
 
 #### Faccin s.r.l, Via Luigi Pettinà 23, 36010 Zanè (Italia)
 2025 - In corso
-- Sviluppo di software Plc per macchine industriale con elettronica Siemens, Sew, Omron e Rockwell.
+- Sviluppo di software Plc per macchine industriale con elettronica Siemens, Omron, Codesys e Rockwell.
 - Sviluppo di codice e configurazione reti macchina, router e gateway per industria 4.0.
-- Sviluppo di interfacce Hmi per macchine per industria con elettronica Siemens, Rockwell, FTOptix e PC industriali.
-- Esperienza in trasferta in paesi europei ed extraeuropei. 
+- Sviluppo di interfacce Hmi per macchine per industria con elettronica Siemens, Rockwell, FTOptix, Weintek e PC industriali.
+- Sviluppo di applicazioni Windows ambiente WPF in VisualBasic.
+- Esperienza in trasferta in paesi europei.
 
 ## 📚 Istruzione
 #### Istituto tecnico tecnologico statale "Silvio De Pretto", Schio (Italia)  
@@ -44,11 +45,12 @@ ed elettrotecnica" - Articolazione "Elettrotecnica"
 ## 🖋️ Competenze
 - 🔵🔵🔵⚪⚪ Suite Microsoft Office.
 - 🔵🔵🔵⚪⚪ Software di fotoritocco.
-- 🔵🔵🔵🔵🔵 Sviluppo software Plc Schneider.
-- 🔵🔵🔵⚪⚪ Sviluppo software Hmi Exor, Schneider, Siemens, Rockwell, FTOptix, Omron e PC industriali.
+- 🔵🔵🔵🔵🔵 Sviluppo software Plc Schneider e Codesys.
+- 🔵🔵🔵⚪⚪ Sviluppo software Hmi Exor, Schneider, Siemens, Rockwell, FTOptix, Omron, Weintek e PC industriali.
 - 🔵🔵🔵⚪⚪ Sviluppo software Plc Omron, Siemens, Sew e Rockwell.
 - 🔵🔵🔵⚪⚪ Sistemi di configurazione rete industria 4.0. Rete macchina (Modbus TCP, Ethernet IP), rete aziendale (FTP, OPC-UA), configurazione router per connessione remota in assistenza e per interfacciamento aziendale.
 - 🔵🔵🔵⚪⚪ Sviluppo software e programmazione robot Kuka.
+- 🔵🔵⚪⚪⚪ Sviluppo di applicazioni Windows ambiente WPF in VisualBasic.
 - 🔵🔵⚪⚪⚪ Linguaggi HTML, CSS, JavaScript, Python, Markdown e Git.
 
 ## 💭 Lingue
