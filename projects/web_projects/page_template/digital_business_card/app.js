@@ -13,7 +13,7 @@ function Nav() {
     return (
         <nav>
             <a href="mailto:gavassopaolo@gmail.com" target="_blank"><i className="fas fa-envelope"></i>Email</a>
-            <a href="" target="_blank" className="linkedin-link"><i className="fab fa-linkedin"></i>Linkedin</a>
+            <a target="_blank" className="linkedin-link"><i className="fab fa-linkedin"></i>Linkedin</a>
         </nav>
     )
 }
@@ -32,8 +32,8 @@ function MainContent() {
 function Footer() {
     return (
         <footer>
-            <a href="" target="_blank"><i className="fab fa-facebook-square fa-2x"></i></a>
-            <a href="" target="_blank"><i className="fab fa-twitter fa-2x"></i></a>
+            <a target="_blank"><i className="fab fa-facebook-square fa-2x"></i></a>
+            <a target="_blank"><i className="fab fa-twitter fa-2x"></i></a>
             <a href="https://www.instagram.com/gavaolo/?hl=it" target="_blank"><i className="fab fa-instagram fa-2x"></i></a>      
             <a id="profile-link" href="https://github.com/gavaolo" target="_blank"><i className="fab fa-github fa-2x"></i></a>
         </footer>
