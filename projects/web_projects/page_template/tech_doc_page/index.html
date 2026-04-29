@@ -1,206 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Technical Documentation Page</title>
+    <title>Documentazione: Sovranità Digitale e Bitcoin</title>
 </head>
 <body>
-    <!-- nav bar -->
     <nav id="navbar">
-        <header>Nav bar</header>
+        <header>Guida alla Sovranità</header>
         <ul>
-            <li><a class="nav-link" href="#section-0">Section 0</a></li>
-            <li><a class="nav-link" href="#section-1">Section 1</a></li>
-            <li><a class="nav-link" href="#section-2">Section 2</a></li>
-            <li><a class="nav-link" href="#section-3">Section 3</a></li>
-            <li><a class="nav-link" href="#section-4">Section 4</a></li>
-            <li><a class="nav-link" href="#section-5">Section 5</a></li>
-            <li><a class="nav-link" href="#section-6">Section 6</a></li>
-            <li><a class="nav-link" href="#section-7">Section 7</a></li>
-            <li><a class="nav-link" href="#section-8">Section 8</a></li>
-            <li><a class="nav-link" href="#section-9">Section 9</a></li>
-            <li><a class="nav-link" href="#section-10">Section 10</a></li>
-            <li><a class="nav-link" href="#section-11">Section 11</a></li>
-            <li><a class="nav-link" href="#section-12">Section 12</a></li>
-            <li><a class="nav-link" href="#section-13">Section 13</a></li>
+            <li><a class="nav-link" href="#section-0">Cos'è Bitcoin</a></li>
+            <li><a class="nav-link" href="#section-1">Proprietà della Rete</a></li>
+            <li><a class="nav-link" href="#section-2">La Blockchain</a></li>
+            <li><a class="nav-link" href="#section-3">Crittografia Asimmetrica</a></li>
+            <li><a class="nav-link" href="#section-4">Il Concetto di Nodo</a></li>
+            <li><a class="nav-link" href="#section-5">Comandi Base RPC</a></li>
+            <li><a class="nav-link" href="#section-6">Sicurezza del Wallet</a></li>
+            <li><a class="nav-link" href="#section-7">Proof of Work</a></li>
+            <li><a class="nav-link" href="#section-8">Mining e Difficoltà</a></li>
+            <li><a class="nav-link" href="#section-9">Privacy e CoinJoin</a></li>
+            <li><a class="nav-link" href="#section-10">Lightning Network</a></li>
+            <li><a class="nav-link" href="#section-11">Smart Contracts</a></li>
+            <li><a class="nav-link" href="#section-12">Etica Cypherpunk</a></li>
+            <li><a class="nav-link" href="#section-13">Risorse Esterne</a></li>
         </ul>
     </nav>
   
     <main id="main-doc">
         
-        <!-- section 0 -->
         <section class="main-section" id="section-0">
-            <header>Section 0</header>
+            <header>Cos'è Bitcoin</header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Bitcoin è un protocollo decentralizzato che permette il trasferimento di valore peer-to-peer senza la necessità di intermediari finanziari. È la prima implementazione di successo della scarsità digitale, basata su un registro distribuito e immutabile.</p>
                 <ul>
-                    <li>Item 0</li>
-                    <li>Item 1</li>
+                    <li>Emissione controllata (max 21 milioni)</li>
+                    <li>Nessuna autorità centrale</li>
                 </ul>
             </article>
         </section>
         
-        <!-- section 1 -->
         <section class="main-section" id="section-1">
-            <header>Section 1</header>
+            <header>Proprietà della Rete</header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>La rete si basa sulla verifica anziché sulla fiducia. Ogni partecipante può validare l'intero storico delle transazioni in modo indipendente, garantendo che nessuno possa barare o creare moneta dal nulla.</p>
                 <ul>
-                    <li>Item 0</li>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
+                    <li>Resistenza alla censura</li>
+                    <li>Permitless (senza permessi)</li>
+                    <li>Open Source</li>
                 </ul>
             </article>
         </section>
         
-        <!-- section 2 -->
         <section class="main-section" id="section-2">
-            <header>Section 2</header>
+            <header>La Blockchain</header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>La blockchain è una catena di blocchi legati crittograficamente. Ogni blocco contiene un insieme di transazioni e un riferimento al blocco precedente, rendendo computazionalmente impossibile modificare i dati passati senza rifare tutto il lavoro di mining.</p>
             </article>
         </section>
         
-        <!-- section 3 -->
         <section class="main-section" id="section-3">
-            <header>Section 3</header>
+            <header>Crittografia Asimmetrica</header>
             <article>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <code>Code field</code>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                La sovranità digitale si basa sul possesso delle proprie chiavi. La chiave pubblica permette di generare indirizzi per ricevere fondi, mentre la chiave privata è necessaria per firmare e autorizzare le transazioni in uscita.
+                <code>privkey = SHA256(secret_seed)</code>
+                Se non possiedi le chiavi private, non possiedi realmente i tuoi Bitcoin (concetto noto come "Not your keys, not your coins").
             </article>
         </section>
         
-        <!-- section 4 -->
         <section class="main-section" id="section-4">
-            <header>Section 4</header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <header>Il Concetto di Nodo</header>
+            <p>Eseguire un nodo completo (Full Node) significa scaricare e verificare ogni singola transazione mai avvenuta. Questo processo garantisce all'utente la massima privacy e la certezza matematica di seguire le regole del protocollo originale.</p>
         </section>
         
-        <!-- section 5 -->
         <section class="main-section" id="section-5">
-            <header>Section 5</header>
+            <header>Comandi Base RPC</header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.<code>Code field</code>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.<code>Code field</code>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.<code>Code field</code>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Per interagire con il demone Bitcoin via terminale, si utilizza l'interfaccia RPC. Ad esempio, per ottenere informazioni generali sulla rete: <code>bitcoin-cli getblockchaininfo</code>.</p>
+                <p>Per generare un nuovo indirizzo di ricezione in formato Bech32: <code>bitcoin-cli getnewaddress</code>.</p>
+                <p>Per verificare il numero di connessioni attive del proprio nodo: <code>bitcoin-cli getconnectioncount</code>.</p>
             </article>
         </section>
         
-        <!-- section 6 -->
         <section class="main-section" id="section-6">
-            <header>Section 6</header>
+            <header>Sicurezza del Wallet</header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <code>Code field</code>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <code>Code field</code>
+                <p>La sicurezza dei fondi dipende dalla gestione del seed (solitamente 12 o 24 parole). Questo seed deve essere conservato offline, idealmente su supporti fisici resistenti come l'acciaio.</p>
+                <code>gpg --encrypt seed.txt</code>
+                <p>L'uso di Hardware Wallet è caldamente consigliato per mantenere le chiavi private isolate da dispositivi connessi a internet.</p>
+                <code>wallet_type: "Cold Storage"</code>
             </article>
         </section>
         
-        <!-- section 7 -->
         <section class="main-section" id="section-7">
-            <header>Section 7</header>
+            <header>Proof of Work</header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>La Proof of Work (PoW) è il meccanismo di consenso che protegge la rete. Richiede che i miner spendano energia per risolvere un complesso puzzle matematico, rendendo la sicurezza di Bitcoin ancorata alla realtà fisica.</p>
             </article>
         </section>
         
-        <!-- section 8 -->
         <section class="main-section" id="section-8">
-            <header>Section 8</header>
+            <header>Mining e Difficoltà</header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <code>Code field</code>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <code>Code field</code>
+                <p>La difficoltà di mining viene aggiustata ogni 2016 blocchi (circa due settimane) per garantire che il tempo medio di emissione rimanga costante nonostante le variazioni della potenza di calcolo globale.</p>
+                <code>difficulty_adjustment_interval = 2016</code>
+                <p>Questo meccanismo impedisce l'iperinflazione e garantisce la prevedibilità dell'offerta monetaria.</p>
+                <code>target_block_time = 600s</code>
             </article>
         </section>
         
-        <!-- section 9 -->
         <section class="main-section" id="section-9">
-        <header>Section 9</header>
+            <header>Privacy e CoinJoin</header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Bitcoin è pseudonimo. Per migliorare la privacy ed evitare il tracciamento della catena di custodia, è possibile utilizzare tecniche di miscelazione dei fondi chiamate CoinJoin.</p>
                 <ul>
                     <li>
-                        <p>Item 0</p>
+                        <p>Vantaggi del CoinJoin</p>
                         <ul>
-                            <li>Item 0</li>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                            <li>Item 4</li>
-                            <li>Item 5</li>
+                            <li>Rottura dei link deterministici</li>
+                            <li>Maggiore fungibilità</li>
+                            <li>Protezione del saldo</li>
+                            <li>Anonimato di gruppo</li>
+                            <li>Obfuscation dei metadati</li>
+                            <li>Resistenza alla sorveglianza</li>
                         </ul>
                     </li>
-                    <li>Item 1</li>
+                    <li>Sempre preferibile usare nodi via Tor.</li>
                 </ul>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                La privacy non è nascondere qualcosa di illegale, ma proteggere la propria libertà finanziaria da attori malintenzionati.
             </article>
         </section>
         
-        <!-- section 10 -->
         <section class="main-section" id="section-10">
-            <header>Section 10</header>
+            <header>Lightning Network</header>
             <article>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <code>Code field</code>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <code>Code field</code>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <code>Code field</code>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <code>Code field</code>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <code>Code field</code>
+                Il Lightning Network è un protocollo di secondo livello "Layer 2" che permette pagamenti istantanei e a bassissimo costo, risolvendo i problemi di scalabilità della blockchain principale.
+                <code>lncli openchannel --node_key PUBKEY --local_amt AMOUNT</code>
+                <p>Le transazioni avvengono fuori dalla catena principale e vengono registrate sulla blockchain solo al momento della chiusura dei canali di pagamento.</p>
+                <code>capacity_limit = 0.167 BTC</code>
+                I canali permettono di effettuare migliaia di micro-transazioni al secondo senza intasare il registro principale.
+                <code>htlc_timelock = 144</code>
+                Questo rende Bitcoin utilizzabile per i pagamenti quotidiani, come l'acquisto di un caffè.
+                <code>bolt_standard = 11</code>
             </article>
         </section>
         
-        <!-- section 11 -->
         <section class="main-section" id="section-11">
-            <header>Section 11</header>
+            <header>Smart Contracts</header>
             <article>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <code>Code field</code> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <code>Code field</code>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                Bitcoin supporta contratti intelligenti tramite un linguaggio di scripting limitato ma estremamente sicuro chiamato Script. Questo permette di creare transazioni multi-firma e a rilascio temporale.
+                <code>OP_CHECKMULTISIG</code> 
+                <p>Le nuove tecnologie come Taproot migliorano l'efficienza e la privacy di questi contratti, rendendoli indistinguibili dalle transazioni normali sulla blockchain.</p>
+                <code>OP_CHECKSIGADD</code>
+                <p>Questo espande le possibilità di utilizzo del protocollo per escrow e gestioni patrimoniali complesse.</p>
                 <ul>
-                    <li>Item 0</li>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
+                    <li>Multi-signature (2-of-3)</li>
+                    <li>Time-locks (CLTV)</li>
+                    <li>Hash-locks (HTLC)</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>La programmabilità di Bitcoin è focalizzata sulla sicurezza e sulla prevedibilità del codice.</p>
             </article>
         </section>
         
-        <!-- section 12 -->
         <section class="main-section" id="section-12">
-            <header>Section 12</header>
+            <header>Etica Cypherpunk</header>
             <article>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I Cypherpunk sostengono l'uso della crittografia e di tecnologie simili come mezzo per ottenere un cambiamento sociale e politico. Bitcoin è l'apice di decenni di ricerca in questa direzione.
                 <ul>
-                    <li>Item 0</li>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
+                    <li>Privacy come diritto umano</li>
+                    <li>Codice come legge (Code is Law)</li>
+                    <li>Azione diretta tramite il software</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <code>Code field</code>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <code>Code field</code>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>La sovranità digitale non è solo una scelta tecnica, ma una responsabilità verso la propria libertà individuale nel mondo digitale moderno.</p>
+                <code>"Cypherpunks write code."</code>
+                <p>La trasparenza delle regole unita alla segretezza delle chiavi crea un sistema bilanciato ed equo.</p>
+                <code>motto = "Vires in Numeris"</code>
+                <p>Nessuno può fermare un'idea il cui tempo è giunto, specialmente se protetta dalla matematica.</p>
             </article>
         </section>
         
-        <!-- section 13 -->
         <section class="main-section" id="section-13">
-            <header>Section 13</header>
+            <header>Risorse Esterne</header>
             <article>
-                <p>To read more <a href="https://github.com/RokuoGun" target="_blank">click here.</a></p>
+                <p>Per approfondire la tua formazione e diventare un utente sovrano, <a href="https://bitcoin.org/it/" target="_blank">clicca qui e leggi il Whitepaper originale.</a></p>
             </article>
         </section>
     </main>  
